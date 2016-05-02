@@ -18,6 +18,5 @@ from django.contrib import admin
 from django.conf.urls import include
 
 urlpatterns = [
-    url(r'^grappelli/', include('grappelli.urls')), # grappelli URLS,
     url(r'^admin/', admin.site.urls),
 ]
