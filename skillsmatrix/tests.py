@@ -1,3 +1,9 @@
 from django.test import TestCase
 
-# Create your tests here.
+
+class SkillsMatrix(TestCase):
+    def setUp(self):
+        pass
+
+    def test_SOMETEST(self):
+        self.assertEquals(True, True)
