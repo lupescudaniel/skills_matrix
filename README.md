@@ -2,7 +2,14 @@
 django app for CRC Code Camp Skillsmatrix project
 
 ## Setup
-<pre>pip install Django 1.9.x
+### Prerequisites
+* Python 2.7.x
+* Virtualenv (optional)
+* Pip
+* Sqlite
+
+### Installation/Initialization
+<pre>pip install -r requirements.txt
 git clone https://github.com/crcresearch/codecamp-skillinator-django.git
 codecamp-skillinator-django/manage.py migrate
 codecamp-skillinator-django/manage.py createsuperuser
