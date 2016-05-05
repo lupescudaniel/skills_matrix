@@ -39,3 +39,11 @@ class DeveloperSkill(models.Model):
 
 
 # ExtraCredit model
+class ExtraCredit(models.Model):
+    recipient = models.ForeignKey(Developer, related_name='extracredit_recipient')
+    sender = models.ForeignKey(Developer, related_name='extracredit_sender')
+    skill = models.ForeignKey(Skill, related_name='extracredit_skill')
+    description = models.TextField(blank=True, null=True)
+
+    def __str__(self):
+        return '%s %s -> %s %s - %s' % (self.sender.user.first_name, self.recipient.user.last_name, self.recipient.user.first_name, self.recipient.user.last_name, self.skill.name)

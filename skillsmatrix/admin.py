@@ -1,5 +1,5 @@
 from django.contrib import admin
-from skillsmatrix.models import Skill, Developer, DeveloperSkill
+from skillsmatrix.models import Skill, Developer, DeveloperSkill, ExtraCredit
 
 
 # Skill admin configuration
@@ -25,6 +25,8 @@ class DeveloperSkillAdmin(admin.ModelAdmin):
         return obj.skill.name
 
 admin.site.register(DeveloperSkill, DeveloperSkillAdmin)
+
+admin.site.register(ExtraCredit)
 
 
 # ExtraCredit admin configuration
