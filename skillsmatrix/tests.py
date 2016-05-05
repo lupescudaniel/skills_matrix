@@ -43,11 +43,10 @@ class SkillsMatrix(TestCase):
                                                              proficiency='Enough to cause trouble',
                                                              years_of_experience=6)
         skillset_dev2_skill2.save()
+
         skillset_dev2_skill3 = DeveloperSkill.objects.create(developer=dev2, skill=skill3,
                                                              proficiency='I can art.',
                                                              years_of_experience=20)
-
-
         skillset_dev2_skill3.save()
 
     def test_DeveloperSkillSearch(self):
@@ -107,7 +106,6 @@ class SkillsMatrix(TestCase):
         self.assertEquals(len(skills2), 2)
         self.assertEquals(str(skills2[0]), 'C++')
         self.assertEquals(str(skills2[1]), 'PhotoShop')
-
 
     def test_HomePage(self):
         # create a client for testing with
