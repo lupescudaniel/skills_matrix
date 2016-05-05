@@ -18,7 +18,7 @@ class Skill(models.Model):
 # Developer model
 class Developer(models.Model):
     user = models.OneToOneField(User)
-    extra_credit_tokens = models.IntegerField
+    extra_credit_tokens = models.IntegerField(default=0)
     manager = models.CharField(max_length=30)
     title = models.CharField(max_length=30)
 
