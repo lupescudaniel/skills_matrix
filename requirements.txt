@@ -3,3 +3,4 @@ django-bower
 django-extensions
 django-nose
 coverage
+beautifulsoup4
