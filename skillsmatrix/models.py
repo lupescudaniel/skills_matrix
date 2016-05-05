@@ -4,6 +4,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.conf import settings
 
+
 # Skill model
 class Skill(models.Model):
     name = models.CharField(max_length=512)
@@ -22,15 +23,10 @@ class Developer(models.Model):
     title = models.CharField(max_length=30)
 
     def __str__(self):
-        return '%s %s' %(self.user.first_name, self.user.last_name)
+        return '%s %s' % (self.user.first_name, self.user.last_name)
+
 
 # DeveloperSkill model
-
-
-# ExtraCredit model
-
-
-
 class DeveloperSkill(models.Model):
     developer = models.ForeignKey('Developer', on_delete=models.CASCADE)
     skill = models.ForeignKey('Skill', on_delete=models.CASCADE)
@@ -38,4 +34,8 @@ class DeveloperSkill(models.Model):
     years_of_experience = models.IntegerField()
 
     def __unicode__(self):
-        return u'%s %s' % (self.developer.user.first_name + ' ' + self.developer.user.last_name, self.skill)
+        return u'%s %s %s %s' % (self.developer.user.first_name + ' ' + self.developer.user.last_name, self.skill.name,
+                                 self.proficiency, self.years_of_experience)
+
+
+# ExtraCredit model
