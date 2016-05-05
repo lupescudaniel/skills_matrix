@@ -9,7 +9,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('skillsmatrix', '0004_create_model_ExtraCreditTokens'),
+        ('skillsmatrix', '0004_create_model_DeveloperSkills'),
     ]
 
     operations = [
@@ -22,5 +22,5 @@ class Migration(migrations.Migration):
                 ('sender', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='extracredit_sender', to='skillsmatrix.Developer')),
                 ('skill', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='extracredit_skill', to='skillsmatrix.Skill')),
             ],
-        ),
+        )
     ]

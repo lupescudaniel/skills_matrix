@@ -34,7 +34,7 @@ class DeveloperSkill(models.Model):
     years_of_experience = models.IntegerField()
 
     def __unicode__(self):
-        return u'%s %s' % (self.developer.user.username, self.skill.name)
+        return u'%s %s' % (self.developer, self.skill)
 
 
 # ExtraCredit model
