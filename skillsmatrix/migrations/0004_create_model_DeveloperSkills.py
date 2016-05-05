@@ -22,15 +22,5 @@ class Migration(migrations.Migration):
                 ('developer', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='skillsmatrix.Developer')),
                 ('skill', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='skillsmatrix.Skill')),
             ],
-        ),
-        migrations.CreateModel(
-            name='ExtraCredit',
-            fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('description', models.TextField(blank=True, null=True)),
-                ('recipient', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='extracredit_recipient', to='skillsmatrix.Developer')),
-                ('sender', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='extracredit_sender', to='skillsmatrix.Developer')),
-                ('skill', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='extracredit_skill', to='skillsmatrix.Skill')),
-            ],
-        ),
+        )
     ]
