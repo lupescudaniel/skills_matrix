@@ -9,6 +9,7 @@ class SkillAdmin(admin.ModelAdmin):
 
 admin.site.register(Skill, SkillAdmin)
 
+
 # Developer admin configuration
 admin.site.register(Developer)
 
@@ -25,7 +26,8 @@ class DeveloperSkillAdmin(admin.ModelAdmin):
 
 admin.site.register(DeveloperSkill, DeveloperSkillAdmin)
 
+
+# ExtraCredit admin configuration
 admin.site.register(ExtraCredit)
 
 
-# ExtraCredit admin configuration
