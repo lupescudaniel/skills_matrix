@@ -1,0 +1,45 @@
+{%  extends 'base.html' %}
+{% block content %}
+    <h2>Developer</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Developer Name</th>
+                <th>Title</th>
+                <th>Extra Credit Tokens</th>
+                <th>Manager</th>
+
+            </tr>
+        </thead>
+        <tr>
+            <td>{{object.user.first_name}} {{ object.user.last_name }}</td>
+            <td>{{object.title}}</td>
+            <td>{{object.extra_credit_tokens}}</td>
+            <td>{{object.manager }}</td>
+        </tr>
+    </table>
+
+    <h2>Developer Skills</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Difficulty</th>
+                <th>Family</th>
+                <th>Proficiency</th>
+                <td>Years of Experience</td>
+
+            </tr>
+        </thead>
+        {% for skill in skills %}
+            <tr>
+                <td>{{skill.skill.name}}</td>
+                <td>{{skill.skill.difficulty}}</td>
+                <td>{{skill.skill.family}}</td>
+                <td>{{ skill.proficiency }}</td>
+                <td>{{ skill.years_of_experience }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}
