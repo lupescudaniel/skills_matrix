@@ -20,26 +20,29 @@
     </table>
 
     <h2>Developer Skills</h2>
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Difficulty</th>
-                <th>Family</th>
-                <th>Proficiency</th>
-                <td>Years of Experience</td>
+    {% if not skills %}
+    This developer has no skills
+    {% else %}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Difficulty</th>
+                    <th>Family</th>
+                    <th>Proficiency</th>
+                    <td>Years of Experience</td>
 
-            </tr>
-        </thead>
-        {% for skill in skills %}
-            <tr>
-                <td>{{skill.skill.name}}</td>
-                <td>{{skill.skill.difficulty}}</td>
-                <td>{{skill.skill.family}}</td>
-                <td>{{ skill.proficiency }}</td>
-                <td>{{ skill.years_of_experience }}</td>
-            </tr>
-        {% endfor %}
-    </table>
-
+                </tr>
+            </thead>
+            {% for skill in skills %}
+                <tr>
+                    <td>{{skill.skill.name}}</td>
+                    <td>{{skill.skill.difficulty}}</td>
+                    <td>{{skill.skill.family}}</td>
+                    <td>{{ skill.proficiency }}</td>
+                    <td>{{ skill.years_of_experience }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
 {% endblock %}
