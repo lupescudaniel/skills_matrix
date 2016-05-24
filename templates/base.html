@@ -28,7 +28,12 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
-                <li><a href="/developers/">Developer List</a></li>
+                <li><a href="{% url "my_developer_details" %}">Me</a></li>
+                <li><a href="{% url "developer_list" %}">Developer List</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="{% url "my_developer_details" %}">{{ request.user }}</a></li>
+                <li><a href="{% url "logout" %}" class="glyphicon glyphicon-log-out"></a></li>
             </ul>
         </div>
     </div>

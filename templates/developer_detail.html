@@ -13,8 +13,8 @@
         </thead>
         <tr>
             <td>{{ object }}</td>
-            <td>{{object.title}}</td>
-            <td>{{object.extra_credit_tokens}}</td>
+            <td>{{object.title}} <a class="glyphicon glyphicon-pencil" href="{% url "developer_update" object.id %}"></a></td>
+            <td>{{object.extra_credit_tokens}} {% if object.user.id == request.user.id %}<a class="glyphicon glyphicon-send" href="{% url "send_extra_credit" %}"></a>{% endif %}</td>
             <td>{{object.manager }}</td>
         </tr>
     </table>
