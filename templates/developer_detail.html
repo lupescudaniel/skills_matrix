@@ -12,7 +12,7 @@
             </tr>
         </thead>
         <tr>
-            <td>{{object.user.first_name}} {{ object.user.last_name }}</td>
+            <td>{{ object }}</td>
             <td>{{object.title}}</td>
             <td>{{object.extra_credit_tokens}}</td>
             <td>{{object.manager }}</td>
@@ -30,17 +30,43 @@
                     <th>Difficulty</th>
                     <th>Family</th>
                     <th>Proficiency</th>
-                    <td>Years of Experience</td>
+                    <th>Years of Experience</th>
 
                 </tr>
             </thead>
             {% for skill in skills %}
                 <tr>
-                    <td>{{skill.skill.name}}</td>
+                    <td>{{skill.skill}}</td>
                     <td>{{skill.skill.difficulty}}</td>
                     <td>{{skill.skill.family}}</td>
                     <td>{{ skill.proficiency }}</td>
                     <td>{{ skill.years_of_experience }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+
+
+    <h2>Developer Extra Credits</h2>
+    {% if developer.extracredit_recipient.all|length_is:"0" %}
+    This developer has no extra credit
+    {% else %}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>From</th>
+                    <th>Date</th>
+                    <th>Description</th>
+
+                </tr>
+            </thead>
+            {% for ec in developer.extracredit_recipient.all|dictsort:"date_credited" %}
+                <tr>
+                    <td>{{ ec.skill }}</td>
+                    <td>{{ ec.sender }}</td>
+                    <td>{{ ec.date_credited }}</td>
+                    <td>{{ ec.description }}</td>
                 </tr>
             {% endfor %}
         </table>
