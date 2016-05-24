@@ -13,9 +13,9 @@
 * At this point, the server should run, but going to any page will throw an error.
 
 ## Assignment Details
-This assignment is intended to practice writing Class-Based Views in Django. For this exercise, all of the templates and URLs have been written for you. Although they are provided, you must *use them to figure out how to implement your views correctly.* 
+This assignment is intended to practice writing Class-Based Views in Django. For this exercise, all of the templates and URLs have been written for you. Although they are provided, you must *use them to figure out how to implement your views correctly.* **CHANGES SHOULD ONLY BE MADE TO THE home.py AND developer.py FILES IN THE skillsmatrix/views DIRECTORY!**
 
-IMPORTANT NOTE: the initial data that is loaded in during the 'lodaddata' step of the prerequisites creates 13 users. These user passwords are simply the username repeated 2-3 times, whichever it takes to get to >8 characters (Django's minimum needed for a password). For example, the user 'jared' has a password of 'jaredjared' but 'nic' has a password of 'nicnicnic'. You will need these to log in as different users to test some of the views as well as to give extra credit without using the admin site.
+IMPORTANT NOTE: the initial data that is loaded in during the 'lodaddata' step of the prerequisites creates 13 users. These user passwords are simply the username repeated 2-3 times, whichever it takes to get to >=8 characters (Django's minimum needed for a password). For example, the user 'jared' has a password of 'jaredjared' but 'nic' has a password of 'nicnicnic'. You will need these to log in as different users to test some of the views as well as to give extra credit without using the admin site.
 
 Here are the views that you need to write to complete the assignment.
 * Home - a template view that loads the home.html template file and also puts a few items in the context to display some overall app statistics on the home page.
