@@ -20,7 +20,10 @@ from skillsmatrix.views.developer import *
 
 urlpatterns = [
     url(r'^$', Home.as_view()),
-    url(r'^developers/$', DeveloperList.as_view()),
+    url(r'^developers/$', DeveloperList.as_view(), name="developer_list"),
     url(r'^developers/(?P<manager>\w+)/$', DeveloperListByManager.as_view()),
-    url(r'^developer_detail/(?P<pk>\d+)/', DeveloperDetail.as_view())
+    url(r'^developer_detail/(?P<pk>\d+)/$', DeveloperDetail.as_view(), name="developer_detail"),
+    url(r'^my_developer_details/$', DeveloperDetailMe.as_view(), name="my_developer_details"),
+    url(r'^developer/(?P<pk>\d+)/update/$', DeveloperUpdate.as_view(), name="developer_update"),
+    url(r'^extracredit/send/$', ExtraCreditCreateView.as_view(), name="send_extra_credit"),
 ]
