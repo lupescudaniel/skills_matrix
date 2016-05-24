@@ -1,4 +1,4 @@
-"""skillinator URL Configuration
+"""skillsmatrix URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.9/topics/http/urls/
@@ -14,11 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from django.contrib import admin
-from django.conf.urls import include
+from skillsmatrix.views.home import *
+from skillsmatrix.views.developer import *
 
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^', include('skillsmatrix.urls')),
+    url(r'^$', Home.as_view()),
+    url(r'^developers/$', DeveloperList.as_view()),
+    url(r'^developers/(?P<manager>\w+)/$', DeveloperListByManager.as_view()),
+    url(r'^developer_detail/(?P<pk>\d+)/', DeveloperDetail.as_view())
 ]
