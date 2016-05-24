@@ -25,3 +25,5 @@ Here are the views that you need to write to complete the assignment.
 * DeveloperDetailMe - a DetailView that inherits from DeveloperDetail, but instead of getting a pk from the URL, always show the detail page of the currently logged in user/developer
 * DeveloperUpdate - an UpdateView that uses the developer_update.html template to update a developer's manager. After completing the update, this view should redirect back to the developer detail page of the user that was just edited.
 * ExtraCreditCreateView - a CreateView that allows the logged in user to send extra credit to another developer. The form does not ask for the sender because it should always be based on the developer of the logged in user. After successfully creating the extra credit object, this view should return the user back to their own developer detail page.
+
+###### Create a Pull Request of your assignment branch when complete and ready for review.
