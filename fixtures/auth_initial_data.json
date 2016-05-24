@@ -271,24 +271,6 @@
 },
 {
   "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$24000$w0EYsaZG4LvY$HYWh80hoO8FfYPl+kc97ygWprX8Cuz0jEUWYMQ+vd8o=",
-    "last_login": "2016-05-23T15:45:05.001Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "",
-    "last_name": "",
-    "email": "admin@123.org",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2016-05-19T15:18:49.696Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
   "pk": 2,
   "fields": {
     "password": "pbkdf2_sha256$24000$pz6dtMyU2qec$Y01tWA4EiqLpLfsHwgaHRB8UxMoMmYoo99lFit9yT0I=",
