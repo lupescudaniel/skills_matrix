@@ -1,0 +1,90 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .center-cols > .col {
+  float:none; /* disable the float */
+  display: inline-block; /* make blocks inline-block */
+  text-align: initial; /* restore text-align to default */
+}
+  .image-margin {
+    margin: 10px;
+  }
+  .detail-card {
+    height: 250px;
+  }
+  .detail-card-avatar {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    margin: 10px
+  }
+  .detail-card-job-title {
+      font-size: large;
+      font-weight: bold;
+  }
+.skill-card {
+    width: 400px;
+    margin: 10px;
+}
+/* BREADCRUMB CSS */
+.my-breadcrumb {
+    font-size: 18px;
+    color: orange;
+}
+
+.my-breadcrumb i,
+.my-breadcrumb [class^="mdi-"], .my-breadcrumb [class*="mdi-"],
+.my-breadcrumb i.material-icons {
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+}
+
+.my-breadcrumb:before {
+    content: '\E5CC';
+    color: orange;
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    margin: 0 10px 0 8px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.my-breadcrumb:first-child:before {
+    display: none;
+}
+
+.my-breadcrumb:last-child {
+    color: orange;
+}
+i.icon-blue {
+    color: #2196f3;
+}
+
+.title-icons {
+    margin-right: 15px;
+}
+

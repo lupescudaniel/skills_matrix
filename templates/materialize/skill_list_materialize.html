@@ -1,0 +1,30 @@
+{% extends 'materialize/base_materialize.html' %}
+{% load staticfiles %}
+{% block content %}
+
+    <ul class="collection with-header container">
+        <li class="collection-header">
+            <h3 class="col s12 m6 orange-text valign-wrapper"><i class="material-icons title-icons medium">work</i>Skills</h3>
+        </li>
+        {% for object in object_list %}
+
+            <li class="collection-item avatar">
+                <img src="{% static 'images/skill-icon2.jpg' %}" alt="" class="circle">
+                <span class="title" style="font-weight: bold; font-size: large;"><a href="{{ object.id }}">{{ object.name }}</a></span>
+
+                <p>{{ object.family }} <br>
+                   Difficulty: {{ object.difficulty }}
+                </p>
+            </li>
+            <!--li class="collection-item">
+                <div class="col s6 m6 blue-text" style="font-weight: bold; font-size: large;"><a href="#!">{{ object.name }}</a>
+                    <!--div class="chip secondary-content">{{ object.family }}</div>
+                    <div class="chip secondary-content">{{ object.difficulty }}</div-->
+                    <!--a href="#!" class="secondary-content"><i class="material-icons icon-blue">search</i></a-->
+                <!--/div>
+                <div>{{ object.family }}<br>
+            Difficulty: {{ object.difficulty }}</div>
+            </li-->
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,9 +1,10 @@
 from django.views.generic import *
 from skillsmatrix.models import *
 
+
 #View file for the homepage
 class Home(TemplateView):
-    template_name = "home.html"
+    template_name = "materialize/base_materialize.html"
 
     def get_context_data(self, **kwargs):
         context = super(Home, self).get_context_data()

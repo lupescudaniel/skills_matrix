@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 from django.db import models
 from django.contrib.auth.models import User
 from django.conf import settings
+from datetime import date
 
 
 # Skill model
@@ -11,7 +12,7 @@ class Skill(models.Model):
     difficulty = models.IntegerField()
     family = models.CharField(max_length=256)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -21,6 +22,9 @@ class Developer(models.Model):
     extra_credit_tokens = models.IntegerField(default=0)
     manager = models.CharField(max_length=30)
     title = models.CharField(max_length=30)
+    phone = models.CharField(max_length=10, default="phone")
+    start_date = models.DateField(default=date.today())
+    is_manager = models.BooleanField(default=False)
 
     def __str__(self):
         return '%s %s' % (self.user.first_name, self.user.last_name)
@@ -47,3 +51,31 @@ class ExtraCredit(models.Model):
 
     def __str__(self):
         return '%s %s -> %s %s - %s' % (self.sender.user.first_name, self.recipient.user.last_name, self.recipient.user.first_name, self.recipient.user.last_name, self.skill.name)
+
+# Project model
+class Project(models.Model):
+    name = models.CharField(max_length=30)
+    project_lead = models.ForeignKey('Developer', on_delete=models.CASCADE)
+    pi = models.CharField(max_length=30)
+
+    def __str__(self):
+        return '%s' % (self.name)
+
+
+# ProjectSkill model
+class ProjectSkill(models.Model):
+    project = models.ForeignKey('Project', on_delete=models.CASCADE)
+    skill = models.ForeignKey('Skill', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return '%s' % (self.skill.name)
+
+# ProjectDeveloper model
+class ProjectDeveloper(models.Model):
+    project = models.ForeignKey('Project', on_delete=models.CASCADE)
+    developer = models.ForeignKey('Developer', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return '%s %s' % (self.developer.user.first_name)
+
+
