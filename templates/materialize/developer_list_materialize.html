@@ -1,0 +1,27 @@
+{%  extends 'materialize/base_materialize.html' %}
+{% load staticfiles %}
+{% block content %}
+
+     <ul class="collection with-header container">
+     <li class="collection-header">
+         <h4 class="orange-text valign-wrapper"><i class="material-icons title-icons medium">people</i>Developers</h4>
+     </li>
+     <!--li-- class="collection-item">
+         <div class="input-field">
+          <input id="search" type="search" required>
+          <label for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+     </li-->
+     {% for object in object_list %}
+    <li class="collection-item avatar">
+      <img src="{% static 'images/user6.png' %}" alt="" class="circle">
+      <span class="title" style="font-weight: bold;"><a href="{% url 'developer_detail'  object.id %}">{{object.user.first_name}} {{ object.user.last_name }}</a></span>
+      <p>{{object.title}} <br>
+         Manager: {{object.manager }}<br>
+         Extra Credit Tokens: {{object.extra_credit_tokens}}
+      </p>
+    </li>
+     {% endfor %}
+  </ul>
+{% endblock %}

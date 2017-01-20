@@ -156,7 +156,7 @@ STATICFILES_FINDERS = [
 
 #BOWER_COMPONENTS_ROOT = os.path.join(PROJECT_ROOT, 'components')
 
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'skillsmatrix/static')
 
 #BOWER_INSTALLED_APPS = (
 #    'jquery',

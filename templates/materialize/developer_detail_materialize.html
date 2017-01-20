@@ -1,0 +1,84 @@
+{% extends 'materialize/base_materialize.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+            <div class="col s12 container">
+                <a href="{% url 'developer_list' %}" class=" breadcrumb my-breadcrumb">Developer List</a>
+                <a href="#!" class="breadcrumb my-breadcrumb">{{ object }}</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row valign-wrapper">
+            <div class="col s12 m6">
+                <div class="card white">
+                    <div class="card-content white">
+                        <span class="card-title blue-text valign-wrapper">
+                          <h3>{{ object }}</h3>
+                            <!--img src="{% static 'images/user1.png' %}" alt=""
+                               class="circle responsive-img detail-card-avatar right"-->
+                        </span>
+
+                        <p class="detail-card-job-title">{{ developer.title }}</p>
+
+                        <p> Manager: {{ object.manager }}
+                            <br/>
+                            <br/>
+{#                            Tokens: {{ object.extra_credit_tokens }}#}
+                        </p>
+
+                    </div>
+                    <div class="card-action">
+                        <address><a class="blue-text"
+                                    href="mailto:{{ object.user.email }}">{{ object.user.email }}</a></address>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 center-align">
+{#                <a class="waves-effect waves-light btn-large blue">Give {{ object.user.first_name }} extra#}
+{#                    credit </a>#}
+            </div>
+        </div>
+        <!-- end row -->
+        <h4 class="blue-text">Skills</h4>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s6 m3">
+                <div class="card white">
+                    <div class="card-content white-text" style="align-content: center;">
+                        <a href="{% url 'add_skill' %}">
+                            <i class="large material-icons blue-text" style="padding-left: 60px;">add</i>
+                        </a>
+                        <br/>
+                    </div>
+{#                    <div class="card-action">#}
+{#                        <a href="{% url 'add_skill' %}" class="blue-text" style="font-weight: bold;">Add new skill</a>#}
+{#                    </div>#}
+                </div>
+            </div>
+            {% for skill in skills %}
+                <div class="col s6 m3">
+                    <div class="card blue">
+                        <div class="card-content white-text">
+                        <span class="card-title white-text valign-wrapper">
+                          <h5>{{ skill.skill.name }}</h5>
+                        </span>
+                            <p>
+                                Proficiency: {{ skill.proficiency }}<br>
+                                Experience: {{ skill.years_of_experience }} year(s)
+                            </p>
+                        </div>
+{#                        <div class="card-action blue"> {# amber-text text-lighten-2 #}
+{#                            <a href="#" class="white-text" style="font-weight: bold;">See Extra Credit<span#}
+{#                                    class="badge white-text" style="font-weight: bold">1</span></a>#}
+{#                        </div>#}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <!-- end row -->
+    </div> <!-- end container -->
+{% endblock content %}
