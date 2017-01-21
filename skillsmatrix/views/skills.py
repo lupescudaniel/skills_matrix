@@ -1,8 +1,9 @@
 # View file for Skills pages
+from django import forms
 from django.views.generic import *
-from skillsmatrix.models import Skill, DeveloperSkill
-from skillsmatrix.forms.forms import SkillForm
-from django.views.generic.edit import FormView
+from skillsmatrix.models import Skill, DeveloperSkill, Developer
+
+from django.views.generic.edit import CreateView
 
 
 # ListView that lists all of the skills using the skills_list_materialize.html template
@@ -16,16 +17,20 @@ class SkillsList(ListView):
         return q.order_by('name')
 
 
-class AddSkill(FormView):
+class AddSkill(CreateView):
+    model = DeveloperSkill
     template_name = 'materialize/skill_add_materialize.html'
-    form_class = SkillForm
     success_url = '/my_developer_details'
+    fields = '__all__'
 
-    def form_valid(self, form):
-        # Skill.objects.get_or_create()
-        print self
-        print "============================"
-        print form
-        Skill.objects.get_or_create(name=form.id_skill.value())
+    def get_form(self, form_class=None):
+        form = super(AddSkill, self).get_form()
+        form.fields['developer'].widget = forms.HiddenInput()
 
-        return super(AddSkill, self).form_valid(form)
+        return form
+
+    def get_initial(self):
+        initial = super(AddSkill, self).get_initial()
+        initial['developer'] = Developer.objects.get(user=self.request.user)
+        print(self.request.user)
+        return initial

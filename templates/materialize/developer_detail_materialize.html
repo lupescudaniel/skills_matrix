@@ -17,14 +17,11 @@
                     <div class="card-content white">
                         <span class="card-title blue-text valign-wrapper">
                           <h3>{{ object }}</h3>
-                            <!--img src="{% static 'images/user1.png' %}" alt=""
-                               class="circle responsive-img detail-card-avatar right"-->
                         </span>
 
                         <p class="detail-card-job-title">{{ developer.title }}</p>
 
                         <p> Manager: {{ object.manager }}
-                            <br/>
                             <br/>
 {#                            Tokens: {{ object.extra_credit_tokens }}#}
                         </p>
@@ -42,43 +39,55 @@
 {#                    credit </a>#}
             </div>
         </div>
+
         <!-- end row -->
-        <h4 class="blue-text">Skills</h4>
-        <div class="divider"></div>
-        <div class="row">
-            <div class="col s6 m3">
-                <div class="card white">
-                    <div class="card-content white-text" style="align-content: center;">
-                        <a href="{% url 'add_skill' %}">
-                            <i class="large material-icons blue-text" style="padding-left: 60px;">add</i>
-                        </a>
-                        <br/>
-                    </div>
+        <h4 class="orange-text">Skills</h4>
+{#        <div class="divider"></div>#}
+        <ul class="collection">
+    <a href="{% url 'add_skill' %}" class="collection-item orange-text">Add new skill
+        <i class="material-icons secondary-content">add</i>
+    </a>
+     {% for skill in skills %}
+    <li class="collection-item blue-text">
+      <h5><a class="orange-text" href="#">{{skill.skill }}</a></h5>
+        Proficiency: {{ skill.proficiency }} <br/>Experience: {{ skill.years_of_experience }} year(s)
+    </li>
+     {% endfor %}
+  </ul>
+{#        <div class="row">#}
+{#            <div class="col s6 m3">#}
+{#                <div class="card white">#}
+{#                    <div class="card-content white-text" style="align-content: center;">#}
+{#                        <a href="{% url 'add_skill' %}">#}
+{#                            <i class="large material-icons blue-text" style="padding-left: 60px;">add</i>#}
+{#                        </a>#}
+{#                        <br/>#}
+{#                    </div>#}
 {#                    <div class="card-action">#}
 {#                        <a href="{% url 'add_skill' %}" class="blue-text" style="font-weight: bold;">Add new skill</a>#}
 {#                    </div>#}
-                </div>
-            </div>
-            {% for skill in skills %}
-                <div class="col s6 m3">
-                    <div class="card blue">
-                        <div class="card-content white-text">
-                        <span class="card-title white-text valign-wrapper">
-                          <h5>{{ skill.skill.name }}</h5>
-                        </span>
-                            <p>
-                                Proficiency: {{ skill.proficiency }}<br>
-                                Experience: {{ skill.years_of_experience }} year(s)
-                            </p>
-                        </div>
+{#                </div>#}
+{#            </div>#}
+{#            {% for skill in skills %}#}
+{#                <div class="col s6 m3">#}
+{#                    <div class="card blue">#}
+{#                        <div class="card-content white-text">#}
+{#                        <span class="card-title white-text valign-wrapper">#}
+{#                          <h5>{{ skill.skill.name }}</h5>#}
+{#                        </span>#}
+{#                            <p>#}
+{#                                Proficiency: {{ skill.proficiency }}<br>#}
+{#                                Experience: {{ skill.years_of_experience }} year(s)#}
+{#                            </p>#}
+{#                        </div>#}
 {#                        <div class="card-action blue"> {# amber-text text-lighten-2 #}
 {#                            <a href="#" class="white-text" style="font-weight: bold;">See Extra Credit<span#}
 {#                                    class="badge white-text" style="font-weight: bold">1</span></a>#}
 {#                        </div>#}
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
+{#                    </div>#}
+{#                </div>#}
+{#            {% endfor %}#}
+{#        </div>#}
         <!-- end row -->
     </div> <!-- end container -->
 {% endblock content %}

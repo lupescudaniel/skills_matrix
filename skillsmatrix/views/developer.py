@@ -17,7 +17,8 @@ class DeveloperList(ListView):
         return q.order_by('user__last_name')
 
 
-# ListView that inherits from DeveloperList but uses a url parameter to only show the list of developers that have the manager passed in on the url
+# ListView that inherits from DeveloperList but uses a url parameter to only show the list of developers that have the
+# manager passed in on the url
 class DeveloperListByManager(DeveloperList):
     def get_queryset(self):
         q = super(DeveloperListByManager, self).get_queryset()
@@ -31,7 +32,8 @@ class DeveloperDetail(DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(DeveloperDetail, self).get_context_data(**kwargs)
-        context['skills'] = DeveloperSkill.objects.filter(developer=self.object).order_by('-years_of_experience')
+        devskill_list = DeveloperSkill.objects.filter(developer=self.object).order_by('-years_of_experience')
+        context['skills'] = devskill_list
         return context
 
 
@@ -42,7 +44,8 @@ class DeveloperDetailMe(DeveloperDetail):
 
     def get_context_data(self, **kwargs):
         context = super(DeveloperDetail, self).get_context_data()
-        context['skills'] = DeveloperSkill.objects.filter(developer=self.object)  # .order_by('-years_of_experience')
+        devskill_list = DeveloperSkill.objects.filter(developer=self.object).order_by('-years_of_experience')
+        context['skills'] = devskill_list
         return context
 
 
@@ -79,7 +82,8 @@ class ExtraCreditCreateView(CreateView):
         return reverse('developer_detail', kwargs={'pk': self.object.sender.id})
 
 
-# ListView that inherits from DeveloperList but uses a url parameter to only show the list of developers that have the manager passed in on the url
+# ListView that inherits from DeveloperList but uses a url parameter to only show the list of developers that have
+# the manager passed in on the url
 class DeveloperListBySkill(ListView):
     model = DeveloperSkill
     template_name = 'materialize/developer_list_by_skill_materialize.html'
