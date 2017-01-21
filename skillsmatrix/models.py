@@ -2,8 +2,16 @@ from __future__ import unicode_literals
 
 from django.db import models
 from django.contrib.auth.models import User
-from django.conf import settings
 from datetime import date
+
+LOW = 1
+MEDIUM = 2
+HIGH = 3
+PROFICIENCY_CHOICES = (
+    (LOW, 'Low'),
+    (MEDIUM, 'Medium'),
+    (HIGH, 'High')
+)
 
 
 # Skill model
@@ -34,7 +42,7 @@ class Developer(models.Model):
 class DeveloperSkill(models.Model):
     developer = models.ForeignKey('Developer', on_delete=models.CASCADE)
     skill = models.ForeignKey('Skill', on_delete=models.CASCADE)
-    proficiency = models.CharField(max_length=30)
+    proficiency = models.IntegerField(choices=PROFICIENCY_CHOICES)
     years_of_experience = models.IntegerField()
 
     def __unicode__(self):
@@ -51,6 +59,7 @@ class ExtraCredit(models.Model):
 
     def __str__(self):
         return '%s %s -> %s %s - %s' % (self.sender.user.first_name, self.recipient.user.last_name, self.recipient.user.first_name, self.recipient.user.last_name, self.skill.name)
+
 
 # Project model
 class Project(models.Model):
@@ -69,6 +78,7 @@ class ProjectSkill(models.Model):
 
     def __str__(self):
         return '%s' % (self.skill.name)
+
 
 # ProjectDeveloper model
 class ProjectDeveloper(models.Model):

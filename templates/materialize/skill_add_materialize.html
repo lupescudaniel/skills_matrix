@@ -11,3 +11,11 @@
         </form>
     </div>
 {% endblock content %}
+
+{% block extra_js %}
+    <script>
+        $(document).ready(function() {
+            $('select').material_select();
+        });
+    </script>
+{% endblock %}
