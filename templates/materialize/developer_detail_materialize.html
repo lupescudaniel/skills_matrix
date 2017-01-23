@@ -50,7 +50,10 @@
      {% for skill in skills %}
     <li class="collection-item blue-text">
       <h5><a class="orange-text" href="#">{{skill.skill }}</a></h5>
-        Proficiency: {{ skill.proficiency }} <br/>Experience: {{ skill.years_of_experience }} year(s)
+        <div class="row">
+        <div class="col s6">Proficiency: {{ skill.proficiency }} <br/>Experience: {{ skill.years_of_experience }} year(s)</div>
+        <div class="col s6 right-align"><strong>{{ skill.skill.family }}</strong><br/> Difficulty: {{ skill.skill.difficulty }}</div>
+        </div>
     </li>
      {% endfor %}
   </ul>
