@@ -1,5 +1,5 @@
 # codecamp-skillinator-django
-django app for CRC Code Camp Skillsmatrix project
+django app for CRC Skills Matrix app
 
 ## Setup
 ### Prerequisites
@@ -10,7 +10,7 @@ django app for CRC Code Camp Skillsmatrix project
 
 ### Installation/Initialization
 <pre>
-git clone https://github.com/crcresearch/codecamp-skillinator-django.git
+git clone https://github.com/ecaldwe1/skills_matrix.git
 pip install -r requirements.txt
 codecamp-skillinator-django/manage.py migrate
 codecamp-skillinator-django/manage.py createsuperuser
@@ -24,7 +24,7 @@ All contributions from non-c3 participants should be made via Pull Requests to t
 Skillsmatrix App structure reflects the following ERD: 
 ![alt text][erd]
 
-[erd]: https://raw.githubusercontent.com/crcresearch/skills_matrix/master/SkillsMatrixERD.png "Skillsmatrix app database ERD"
+[erd]: https://raw.githubusercontent.com/ecaldwe1/skills_matrix/master/SkillsMatrixERD.png "Skillsmatrix app database ERD"
 
 
 
