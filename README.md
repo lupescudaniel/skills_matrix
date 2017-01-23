@@ -24,7 +24,7 @@ All contributions from non-c3 participants should be made via Pull Requests to t
 Skillsmatrix App structure reflects the following ERD: 
 ![alt text][erd]
 
-[erd]: https://raw.githubusercontent.com/crcresearch/codecamp-skillinator-django/master/skillsmatrix_erd.png "Skillsmatrix app database ERD"
+[erd]: https://raw.githubusercontent.com/crcresearch/codecamp-skillinator-django/master/SkillsMatrixERD.png "Skillsmatrix app database ERD"
 
 
 
