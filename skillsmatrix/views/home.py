@@ -11,6 +11,5 @@ class Home(TemplateView):
 
         context['developer_count'] = Developer.objects.count()
         context['developerskills_count'] = DeveloperSkill.objects.count()
-        context['extracredit_count'] = ExtraCredit.objects.count()
 
         return context

@@ -1,6 +1,6 @@
 # View file for developer pages
 from django.views.generic import *
-from skillsmatrix.models import Developer, DeveloperSkill, ExtraCredit, Skill
+from skillsmatrix.models import Developer, DeveloperSkill, Skill
 from django.core.urlresolvers import reverse
 
 
@@ -60,26 +60,6 @@ class DeveloperUpdate(UpdateView):
 
     def get_success_url(self):
         return reverse('developer_detail', kwargs={'pk': self.object.id})
-
-
-# CreateView that allows the logged in user to send extra credit to another developer
-class ExtraCreditCreateView(CreateView):
-    model = ExtraCredit
-    template_name = 'materialize/extracredit_create_materialize.html'
-    fields = ['recipient', 'skill', 'description']
-
-    def form_valid(self, form):
-        form.instance.sender = Developer.objects.get(user=self.request.user)
-
-        # Decrement the user's extra credit tokens if the form is valid
-        obj = Developer.objects.get(user=self.request.user)
-        obj.extra_credit_tokens -= 1
-        obj.save()
-
-        return super(ExtraCreditCreateView, self).form_valid(form)
-
-    def get_success_url(self):
-        return reverse('developer_detail', kwargs={'pk': self.object.sender.id})
 
 
 # ListView that inherits from DeveloperList but uses a url parameter to only show the list of developers that have

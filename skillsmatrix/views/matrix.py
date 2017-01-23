@@ -2,6 +2,7 @@ from django.views.generic import *
 from skillsmatrix.models import *
 from django.core.exceptions import ObjectDoesNotExist
 
+
 # View file for the homepage
 class Matrix(TemplateView):
     template_name = "materialize/matrix_materialize.html"
@@ -46,10 +47,10 @@ class Matrix(TemplateView):
 
         # Loop through each developer
         for dev in dev_list:
-            print(dev)
+
             # Loop through each skill
             for skill in skill_list:
-                print(skill['name'])
+
                 try:
                     DeveloperSkill.objects.get(developer=dev['id'], skill=skill['id'])
                 except ObjectDoesNotExist:
@@ -69,5 +70,5 @@ class Matrix(TemplateView):
             'skills': skills,
             'devskills': devskills
         }
-        print(context)
+
         return context
