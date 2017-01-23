@@ -22,14 +22,11 @@
                 },
 
                 xAxis: {
-                    categories: ['Adam', 'Alex', 'Antelmo', 'Beth', 'Brett', 'Caleb', 'David', 'Jared', 'Rob H',
-                        'Rob W', 'Sam', 'Scott']
+                    categories: {{ developers | safe }}
                 },
 
                 yAxis: {
-                    categories: ['AngularJS', 'Bootstrap', 'Django', 'Drupal', 'Ember.js', 'Git', 'Go',
-                        'Google Material', 'Joomla', 'MongoDB', 'MySQL', 'Node.js', 'Oracle DB', 'PhoneGap',
-                        'PostgreSQL', 'Python', 'Redis', 'SemanticUI', 'Swift', 'Varnish', 'jQuery'],
+                    categories: {{ skills | safe }},
                     title: null
                 },
 

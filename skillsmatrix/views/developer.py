@@ -1,6 +1,6 @@
 # View file for developer pages
 from django.views.generic import *
-from skillsmatrix.models import Developer, DeveloperSkill, ExtraCredit
+from skillsmatrix.models import Developer, DeveloperSkill, ExtraCredit, Skill
 from django.core.urlresolvers import reverse
 
 
@@ -91,3 +91,10 @@ class DeveloperListBySkill(ListView):
     def get_queryset(self):
         q = super(DeveloperListBySkill, self).get_queryset()
         return q.filter(skill_id=self.kwargs['skill_id'])
+
+    def get_context_data(self, **kwargs):
+        context = super(DeveloperListBySkill, self).get_context_data()
+        skill_id = self.kwargs['skill_id']
+        skill_obj = Skill.objects.get(id=skill_id)
+        context['skill_name'] = skill_obj.name
+        return context

@@ -48,6 +48,16 @@ class DeveloperSkill(models.Model):
     def __unicode__(self):
         return u'%s %s' % (self.developer, self.skill)
 
+    def get_proficiency_string(self):
+        proficiency_string = ""
+        if self.proficiency == 1:
+            proficiency_string = "Low"
+        elif self.proficiency == 2:
+            proficiency_string = "Medium"
+        elif self.proficiency == 3:
+            proficiency_string = "High"
+        return proficiency_string
+
 
 # ExtraCredit model
 class ExtraCredit(models.Model):
