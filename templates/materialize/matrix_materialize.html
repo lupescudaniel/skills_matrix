@@ -9,25 +9,25 @@
 
             $("#filter_status").text("No filters applied");
 
-            $("#selectAllDevBtn").click(function() {
+            $("#selectAllDevBtn").click(function () {
                 $(".devbox").each(function () {
                     $(this).prop('checked', true);
                 })
             });
 
-            $("#deselectAllDevBtn").click(function() {
+            $("#deselectAllDevBtn").click(function () {
                 $(".devbox").each(function () {
                     $(this).prop('checked', false);
                 })
             });
 
-            $("#selectAllSkillBtn").click(function() {
+            $("#selectAllSkillBtn").click(function () {
                 $(".skillbox").each(function () {
                     $(this).prop('checked', true);
                 })
             });
 
-            $("#deselectAllSkillBtn").click(function() {
+            $("#deselectAllSkillBtn").click(function () {
                 $(".skillbox").each(function () {
                     $(this).prop('checked', false);
                 })
@@ -85,6 +85,7 @@
                         colorAxis: {
                             min: 0,
                             minColor: '#FFFFFF',
+                            max: 3,
                             maxColor: Highcharts.getOptions().colors[0]
                         },
                         legend: {
@@ -151,8 +152,8 @@
 
                 tooltip: {
                     formatter: function () {
-                        return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> has proficiency of <br><b>' +
-                                this.point.value + '</b> in <br><b>' + this.series.yAxis.categories[this.point.y]
+                        return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> has <br><b>' +
+                                getProficiencyString(this.point.value) + '</b> proficiency in <br><b>' + this.series.yAxis.categories[this.point.y]
                                 + '</b>';
                     }
                 },
@@ -175,13 +176,25 @@
             });
         });
 
-    function collapseAll(){
-  $(".collapsible-header").removeClass(function(){
-    return "active";
-  });
-  $(".collapsible").collapsible({accordion: true});
-  $(".collapsible").collapsible({accordion: false});
-}
+        function collapseAll() {
+            $(".collapsible-header").removeClass(function () {
+                return "active";
+            });
+            $(".collapsible").collapsible({accordion: true});
+            $(".collapsible").collapsible({accordion: false});
+        }
+
+        function getProficiencyString(prof_value) {
+            var prof_string = "no";
+            if (prof_value == 1) {
+                prof_string = "Low";
+            } else if (prof_value == 2) {
+                prof_string = "Medium";
+            } else if (prof_value == 3) {
+                prof_string = "High";
+            }
+            return prof_string;
+        }
     </script>
 {% endblock %}
 {% block content %}
@@ -198,11 +211,12 @@
                         <div class="row">
                             <div id="skill-col" class="col sm3" style="padding-left: 75px;  padding-right: 75px">
                                 <br/>
-                             <h5>Skills</h5>
-                            <div class="row filter-btn-row">
-                                <a class="btn waves-effect waves-light orange filter-btn-xs" id="selectAllSkillBtn">All</a>
-                                <a class="btn waves-effect waves-light orange filter-btn-xs" id="deselectAllSkillBtn">None</a>
-                            </div>
+                                <h5>Skills</h5>
+                                <div class="row filter-btn-row">
+                                    <a class="btn waves-effect waves-light orange filter-btn-xs" id="selectAllSkillBtn">All</a>
+                                    <a class="btn waves-effect waves-light orange filter-btn-xs"
+                                       id="deselectAllSkillBtn">None</a>
+                                </div>
                                 {% for skill in skills %}
                                     <input type="checkbox" id="{{ skill }}-skill" class="skillbox" value="{{ skill }}"/>
                                     <label for="{{ skill }}-skill">{{ skill }}</label>
@@ -212,10 +226,10 @@
                             <div class="col sm3" style="padding-left: 75px; padding-right: 75px">
                                 <br/>
                                 <h5>Developers</h5>
-                            <div class="row filter-btn-row">
-                                <a class="btn waves-effect waves-light orange filter-btn-xs" id="selectAllDevBtn" >All</a>
-                                <a class="btn waves-effect waves-light orange filter-btn-xs" id="deselectAllDevBtn">None</a>
-                            </div>
+                                <div class="row filter-btn-row">
+                                    <a class="btn waves-effect waves-light orange filter-btn-xs" id="selectAllDevBtn">All</a>
+                                    <a class="btn waves-effect waves-light orange filter-btn-xs" id="deselectAllDevBtn">None</a>
+                                </div>
                                 {% for dev in dev_filter_list %}
                                     <input type="checkbox" id="{{ dev.last_name }}-developer" class="devbox"
                                            value="{{ dev.id }}"/>
