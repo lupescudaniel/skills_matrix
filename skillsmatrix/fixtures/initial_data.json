@@ -59,7 +59,7 @@
   "fields": {
     "name": "Google Material",
     "difficulty": 1,
-    "family": "Fron"
+    "family": "Frontend"
   }
 },
 {
@@ -180,13 +180,23 @@
   }
 },
 {
+  "model": "skillsmatrix.skill",
+  "pk": 21,
+  "fields": {
+    "name": "Git",
+    "difficulty": 3,
+    "family": "Version Control"
+  }
+},
+{
   "model": "skillsmatrix.developer",
   "pk": 1,
   "fields": {
     "user": 14,
-    "extra_credit_tokens": 5,
-    "manager": "Chris Sweet",
-    "title": "Lead Developer"
+    "manager": "Caleb",
+    "title": "Lead Developer",
+    "phone": "phone",
+    "is_manager": true
   }
 },
 {
@@ -194,9 +204,10 @@
   "pk": 2,
   "fields": {
     "user": 12,
-    "extra_credit_tokens": 5,
-    "manager": "Caleb",
-    "title": "Research Programmer"
+    "manager": "Rob",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
   }
 },
 {
@@ -204,9 +215,10 @@
   "pk": 3,
   "fields": {
     "user": 8,
-    "extra_credit_tokens": 5,
-    "manager": "Dave",
-    "title": "Research Programmer"
+    "manager": "David",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
   }
 },
 {
@@ -214,9 +226,10 @@
   "pk": 4,
   "fields": {
     "user": 3,
-    "extra_credit_tokens": 5,
-    "manager": "Dave",
-    "title": "Associate Research Programmer"
+    "manager": "David",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
   }
 },
 {
@@ -224,19 +237,10 @@
   "pk": 5,
   "fields": {
     "user": 7,
-    "extra_credit_tokens": 5,
-    "manager": "Chris Sweet",
-    "title": "Lead Developer"
-  }
-},
-{
-  "model": "skillsmatrix.developer",
-  "pk": 6,
-  "fields": {
-    "user": 10,
-    "extra_credit_tokens": 5,
-    "manager": "Alex",
-    "title": "Associate Research Programmer"
+    "manager": "Jarek",
+    "title": "Assistant Director Software Development",
+    "phone": "phone",
+    "is_manager": false
   }
 },
 {
@@ -244,29 +248,10 @@
   "pk": 7,
   "fields": {
     "user": 2,
-    "extra_credit_tokens": 5,
-    "manager": "Chris Sweet",
-    "title": "Lead Developer"
-  }
-},
-{
-  "model": "skillsmatrix.developer",
-  "pk": 8,
-  "fields": {
-    "user": 9,
-    "extra_credit_tokens": 5,
     "manager": "Caleb",
-    "title": "Associate Research Programmer"
-  }
-},
-{
-  "model": "skillsmatrix.developer",
-  "pk": 9,
-  "fields": {
-    "user": 13,
-    "extra_credit_tokens": 5,
-    "manager": "Alex",
-    "title": "Research Programmer"
+    "title": "Lead Developer",
+    "phone": "phone",
+    "is_manager": true
   }
 },
 {
@@ -274,9 +259,10 @@
   "pk": 10,
   "fields": {
     "user": 5,
-    "extra_credit_tokens": 5,
     "manager": "Alex",
-    "title": "Associate Research Programmer"
+    "title": "Associate Research Programmer",
+    "phone": "phone",
+    "is_manager": false
   }
 },
 {
@@ -284,9 +270,10 @@
   "pk": 11,
   "fields": {
     "user": 6,
-    "extra_credit_tokens": 5,
     "manager": "Caleb",
-    "title": "Research Programmer"
+    "title": "Lead Developer",
+    "phone": "phone",
+    "is_manager": true
   }
 },
 {
@@ -294,9 +281,10 @@
   "pk": 12,
   "fields": {
     "user": 4,
-    "extra_credit_tokens": 5,
     "manager": "Dave",
-    "title": "Senior Research Programmer"
+    "title": "Senior Research Programmer",
+    "phone": "phone",
+    "is_manager": false
   }
 },
 {
@@ -304,9 +292,32 @@
   "pk": 13,
   "fields": {
     "user": 11,
-    "extra_credit_tokens": 5,
-    "manager": "Caleb",
-    "title": "Research Programmer"
+    "manager": "Rob",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 14,
+  "fields": {
+    "user": 9,
+    "manager": "David",
+    "title": "Associate Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 15,
+  "fields": {
+    "user": 16,
+    "manager": "Alex",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
   }
 },
 {
@@ -315,7 +326,7 @@
   "fields": {
     "developer": 1,
     "skill": 2,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 5
   }
 },
@@ -325,7 +336,7 @@
   "fields": {
     "developer": 1,
     "skill": 11,
-    "proficiency": "High",
+    "proficiency": 3,
     "years_of_experience": 4
   }
 },
@@ -335,7 +346,7 @@
   "fields": {
     "developer": 1,
     "skill": 13,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 1
   }
 },
@@ -345,7 +356,7 @@
   "fields": {
     "developer": 1,
     "skill": 20,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 3
   }
 },
@@ -355,7 +366,7 @@
   "fields": {
     "developer": 2,
     "skill": 11,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 2
   }
 },
@@ -365,7 +376,7 @@
   "fields": {
     "developer": 2,
     "skill": 12,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 3
   }
 },
@@ -375,7 +386,7 @@
   "fields": {
     "developer": 11,
     "skill": 15,
-    "proficiency": "Low",
+    "proficiency": 1,
     "years_of_experience": 0
   }
 },
@@ -385,7 +396,7 @@
   "fields": {
     "developer": 11,
     "skill": 16,
-    "proficiency": "Low",
+    "proficiency": 1,
     "years_of_experience": 0
   }
 },
@@ -395,7 +406,7 @@
   "fields": {
     "developer": 12,
     "skill": 16,
-    "proficiency": "Low",
+    "proficiency": 1,
     "years_of_experience": 0
   }
 },
@@ -405,7 +416,7 @@
   "fields": {
     "developer": 7,
     "skill": 20,
-    "proficiency": "Jedi",
+    "proficiency": 3,
     "years_of_experience": 5
   }
 },
@@ -415,7 +426,7 @@
   "fields": {
     "developer": 5,
     "skill": 2,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 2
   }
 },
@@ -425,7 +436,7 @@
   "fields": {
     "developer": 7,
     "skill": 2,
-    "proficiency": "High",
+    "proficiency": 3,
     "years_of_experience": 4
   }
 },
@@ -435,17 +446,7 @@
   "fields": {
     "developer": 3,
     "skill": 11,
-    "proficiency": "Medium",
-    "years_of_experience": 1
-  }
-},
-{
-  "model": "skillsmatrix.developerskill",
-  "pk": 14,
-  "fields": {
-    "developer": 8,
-    "skill": 11,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 1
   }
 },
@@ -455,7 +456,7 @@
   "fields": {
     "developer": 10,
     "skill": 11,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 1
   }
 },
@@ -465,7 +466,7 @@
   "fields": {
     "developer": 12,
     "skill": 5,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 1
   }
 },
@@ -475,7 +476,7 @@
   "fields": {
     "developer": 12,
     "skill": 3,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 3
   }
 },
@@ -485,7 +486,7 @@
   "fields": {
     "developer": 12,
     "skill": 10,
-    "proficiency": "Low",
+    "proficiency": 1,
     "years_of_experience": 1
   }
 },
@@ -495,17 +496,7 @@
   "fields": {
     "developer": 12,
     "skill": 7,
-    "proficiency": "Low",
-    "years_of_experience": 1
-  }
-},
-{
-  "model": "skillsmatrix.developerskill",
-  "pk": 20,
-  "fields": {
-    "developer": 9,
-    "skill": 17,
-    "proficiency": "Medium",
+    "proficiency": 1,
     "years_of_experience": 1
   }
 },
@@ -515,28 +506,8 @@
   "fields": {
     "developer": 13,
     "skill": 12,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 2
-  }
-},
-{
-  "model": "skillsmatrix.developerskill",
-  "pk": 22,
-  "fields": {
-    "developer": 6,
-    "skill": 6,
-    "proficiency": "Low",
-    "years_of_experience": 1
-  }
-},
-{
-  "model": "skillsmatrix.developerskill",
-  "pk": 23,
-  "fields": {
-    "developer": 6,
-    "skill": 1,
-    "proficiency": "Low",
-    "years_of_experience": 1
   }
 },
 {
@@ -545,7 +516,7 @@
   "fields": {
     "developer": 4,
     "skill": 9,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 1
   }
 },
@@ -555,7 +526,7 @@
   "fields": {
     "developer": 4,
     "skill": 11,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 2
   }
 },
@@ -565,7 +536,7 @@
   "fields": {
     "developer": 4,
     "skill": 8,
-    "proficiency": "Low",
+    "proficiency": 1,
     "years_of_experience": 1
   }
 },
@@ -575,7 +546,7 @@
   "fields": {
     "developer": 3,
     "skill": 1,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 1
   }
 },
@@ -585,7 +556,7 @@
   "fields": {
     "developer": 10,
     "skill": 9,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 1
   }
 },
@@ -595,19 +566,88 @@
   "fields": {
     "developer": 13,
     "skill": 2,
-    "proficiency": "Medium",
+    "proficiency": 2,
     "years_of_experience": 1
   }
 },
 {
-  "model": "skillsmatrix.extracredit",
-  "pk": 1,
+  "model": "skillsmatrix.developerskill",
+  "pk": 30,
   "fields": {
-    "recipient": 7,
-    "sender": 5,
-    "skill": 2,
-    "description": "Showed me how to set up a custom database index.",
-    "date_credited": "2016-05-24"
+    "developer": 14,
+    "skill": 11,
+    "proficiency": 2,
+    "years_of_experience": 1
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 31,
+  "fields": {
+    "developer": 14,
+    "skill": 21,
+    "proficiency": 3,
+    "years_of_experience": 2
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 33,
+  "fields": {
+    "developer": 3,
+    "skill": 3,
+    "proficiency": 2,
+    "years_of_experience": 3
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 34,
+  "fields": {
+    "developer": 3,
+    "skill": 8,
+    "proficiency": 3,
+    "years_of_experience": 2
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 35,
+  "fields": {
+    "developer": 3,
+    "skill": 5,
+    "proficiency": 3,
+    "years_of_experience": 1
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 36,
+  "fields": {
+    "developer": 3,
+    "skill": 7,
+    "proficiency": 2,
+    "years_of_experience": 1
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 37,
+  "fields": {
+    "developer": 3,
+    "skill": 21,
+    "proficiency": 2,
+    "years_of_experience": 2
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 38,
+  "fields": {
+    "developer": 3,
+    "skill": 14,
+    "proficiency": 1,
+    "years_of_experience": 1
   }
 }
 ]
