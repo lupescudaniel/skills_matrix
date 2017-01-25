@@ -6,6 +6,33 @@
     <script src="{% static 'Highcharts/modules/exporting.js' %}"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+
+            $("#filter_status").text("No filters applied");
+
+            $("#selectAllDevBtn").click(function() {
+                $(".devbox").each(function () {
+                    $(this).prop('checked', true);
+                })
+            });
+
+            $("#deselectAllDevBtn").click(function() {
+                $(".devbox").each(function () {
+                    $(this).prop('checked', false);
+                })
+            });
+
+            $("#selectAllSkillBtn").click(function() {
+                $(".skillbox").each(function () {
+                    $(this).prop('checked', true);
+                })
+            });
+
+            $("#deselectAllSkillBtn").click(function() {
+                $(".skillbox").each(function () {
+                    $(this).prop('checked', false);
+                })
+            });
+
             $("#applyFilterBtn").click(function () {
                 collapseAll();
                 var skills_filters = [];
@@ -21,8 +48,7 @@
                     }
                 });
                 var filter_data = {'skills': skills_filters, 'devs': dev_filters};
-                console.log("FILTER DATA: ");
-                console.log(filter_data);
+
                 $.ajax({
                     method: "GET",
                     url: "/matrix/filter-matrix/",
@@ -32,6 +58,13 @@
                     skills = contextdata["skill_names"];
                     dev_skills = contextdata["dev_skills"];
 
+                    // Set the filter status
+                    var num_skills = skills.length;
+                    var num_devs = developers.length;
+
+                    $("#filter_status").text(num_devs.toString() + " developers, " + num_skills.toString() + " skills");
+
+                    // Adjust the heatmap
                     Highcharts.chart('skillmatrix', {
                         chart: {
                             type: 'heatmap',
@@ -155,15 +188,21 @@
     <div class="container">
         <ul class="collapsible popout" data-collapsible="accordion">
             <li>
-                <div class="collapsible-header"><i class="material-icons">add</i>Filter</div>
+                <div class="collapsible-header">
+                    <i class="material-icons">add</i>
+                    Filter
+                    <span id="filter_status" class="orange-text pull-right"></span>
+                </div>
                 <div class="collapsible-body">
-
                     <form>
                         <div class="row">
                             <div id="skill-col" class="col sm3" style="padding-left: 75px;  padding-right: 75px">
                                 <br/>
-                                <strong>By Skill</strong>
-                                <br/><br/>
+                             <h5>Skills</h5>
+                            <div class="row filter-btn-row">
+                                <a class="btn waves-effect waves-light orange filter-btn-xs" id="selectAllSkillBtn">All</a>
+                                <a class="btn waves-effect waves-light orange filter-btn-xs" id="deselectAllSkillBtn">None</a>
+                            </div>
                                 {% for skill in skills %}
                                     <input type="checkbox" id="{{ skill }}-skill" class="skillbox" value="{{ skill }}"/>
                                     <label for="{{ skill }}-skill">{{ skill }}</label>
@@ -172,14 +211,18 @@
                             </div>
                             <div class="col sm3" style="padding-left: 75px; padding-right: 75px">
                                 <br/>
-                                <strong>By Developer</strong>
-                                <br/><br/>
+                                <h5>Developers</h5>
+                            <div class="row filter-btn-row">
+                                <a class="btn waves-effect waves-light orange filter-btn-xs" id="selectAllDevBtn" >All</a>
+                                <a class="btn waves-effect waves-light orange filter-btn-xs" id="deselectAllDevBtn">None</a>
+                            </div>
                                 {% for dev in dev_filter_list %}
                                     <input type="checkbox" id="{{ dev.last_name }}-developer" class="devbox"
                                            value="{{ dev.id }}"/>
                                     <label for="{{ dev.last_name }}-developer">{{ dev.first_name }} {{ dev.last_name }}</label>
                                     <br/>
                                 {% endfor %}
+
                             </div>
                         </div>
                         <div class="row right-align" style="padding-left: 50px; padding-right: 50px">
