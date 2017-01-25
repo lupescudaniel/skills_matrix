@@ -2,7 +2,6 @@ from __future__ import unicode_literals
 
 from django.db import models
 from django.contrib.auth.models import User
-from datetime import date
 
 LOW = 1
 MEDIUM = 2
@@ -27,9 +26,9 @@ class Skill(models.Model):
 # Developer model
 class Developer(models.Model):
     user = models.OneToOneField(User)
-    manager = models.CharField(max_length=30)
-    title = models.CharField(max_length=30)
-    phone = models.CharField(max_length=10, default="phone", blank=True, null=True)
+    manager = models.CharField(max_length=512)
+    title = models.CharField(max_length=512)
+    phone = models.CharField(max_length=512, default="phone", blank=True, null=True)
     is_manager = models.BooleanField(default=False)
 
     def __str__(self):
@@ -59,9 +58,9 @@ class DeveloperSkill(models.Model):
 
 # Project model
 class Project(models.Model):
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=512)
     project_lead = models.ForeignKey('Developer', on_delete=models.CASCADE)
-    pi = models.CharField(max_length=30)
+    pi = models.CharField(max_length=512)
 
     def __str__(self):
         return '%s' % self.name
