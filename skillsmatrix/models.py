@@ -29,8 +29,7 @@ class Developer(models.Model):
     user = models.OneToOneField(User)
     manager = models.CharField(max_length=30)
     title = models.CharField(max_length=30)
-    phone = models.CharField(max_length=10, default="phone")
-    start_date = models.DateField(default=date.today())
+    phone = models.CharField(max_length=10, default="phone", blank=True, null=True)
     is_manager = models.BooleanField(default=False)
 
     def __str__(self):

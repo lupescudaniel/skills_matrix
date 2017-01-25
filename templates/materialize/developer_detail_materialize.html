@@ -1,6 +1,13 @@
 {% extends 'materialize/base_materialize.html' %}
 {% load staticfiles %}
 
+{% block extra_js %}
+    <script type="text/javascript">
+{#        $(document).ready(function () {#}
+{#        #}
+{#        });#}
+    </script>
+{% endblock extra_js %}
 {% block content %}
     <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
@@ -38,9 +45,10 @@
 
         <h4 class="orange-text">Skills</h4>
         <ul class="collection">
-            <a href="{% url 'add_skill' %}" class="collection-item blue-text"><strong>Add new skill</strong>
+            <li class="collection-item blue-text" {% if not isCurrentUser %} hidden {% endif %}>
+            <a href="{% url 'add_skill' %}"><strong>Add new skill</strong>
                 <i class="material-icons secondary-content">add</i>
-            </a>
+            </a></li>
             {% for skill in skills %}
                 <li class="collection-item blue-text">
                     <h5><a class="orange-text" href="{% url 'developer_list_by_skill' skill.skill.id %}">{{ skill.skill }}</a></h5>

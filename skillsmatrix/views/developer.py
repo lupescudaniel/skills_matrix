@@ -9,9 +9,6 @@ class DeveloperList(ListView):
     model = Developer
     template_name = 'materialize/developer_list_materialize.html'
 
-    # def get_context_data(self, **kwargs):
-    #     context = super(PeopleList, self).get_context_data(**kwargs)
-    #     return context
     def get_queryset(self):
         q = super(DeveloperList, self).get_queryset()
         return q.order_by('user__last_name')
@@ -34,6 +31,7 @@ class DeveloperDetail(DetailView):
         context = super(DeveloperDetail, self).get_context_data(**kwargs)
         devskill_list = DeveloperSkill.objects.filter(developer=self.object).order_by('-years_of_experience')
         context['skills'] = devskill_list
+        context['isCurrentUser'] = False
         return context
 
 
@@ -46,6 +44,7 @@ class DeveloperDetailMe(DeveloperDetail):
         context = super(DeveloperDetail, self).get_context_data()
         devskill_list = DeveloperSkill.objects.filter(developer=self.object).order_by('-years_of_experience')
         context['skills'] = devskill_list
+        context['isCurrentUser'] = True
         return context
 
 
