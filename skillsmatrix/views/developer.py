@@ -1,6 +1,6 @@
 # View file for developer pages
 from django.views.generic import *
-from skillsmatrix.models import Developer, DeveloperSkill, ExtraCredit
+from skillsmatrix.models import Developer, DeveloperSkill, Skill
 from django.core.urlresolvers import reverse
 
 
@@ -62,26 +62,6 @@ class DeveloperUpdate(UpdateView):
         return reverse('developer_detail', kwargs={'pk': self.object.id})
 
 
-# CreateView that allows the logged in user to send extra credit to another developer
-class ExtraCreditCreateView(CreateView):
-    model = ExtraCredit
-    template_name = 'materialize/extracredit_create_materialize.html'
-    fields = ['recipient', 'skill', 'description']
-
-    def form_valid(self, form):
-        form.instance.sender = Developer.objects.get(user=self.request.user)
-
-        # Decrement the user's extra credit tokens if the form is valid
-        obj = Developer.objects.get(user=self.request.user)
-        obj.extra_credit_tokens -= 1
-        obj.save()
-
-        return super(ExtraCreditCreateView, self).form_valid(form)
-
-    def get_success_url(self):
-        return reverse('developer_detail', kwargs={'pk': self.object.sender.id})
-
-
 # ListView that inherits from DeveloperList but uses a url parameter to only show the list of developers that have
 # the manager passed in on the url
 class DeveloperListBySkill(ListView):
@@ -91,3 +71,10 @@ class DeveloperListBySkill(ListView):
     def get_queryset(self):
         q = super(DeveloperListBySkill, self).get_queryset()
         return q.filter(skill_id=self.kwargs['skill_id'])
+
+    def get_context_data(self, **kwargs):
+        context = super(DeveloperListBySkill, self).get_context_data()
+        skill_id = self.kwargs['skill_id']
+        skill_obj = Skill.objects.get(id=skill_id)
+        context['skill_name'] = skill_obj.name
+        return context

@@ -27,7 +27,6 @@ class Skill(models.Model):
 # Developer model
 class Developer(models.Model):
     user = models.OneToOneField(User)
-    extra_credit_tokens = models.IntegerField(default=0)
     manager = models.CharField(max_length=30)
     title = models.CharField(max_length=30)
     phone = models.CharField(max_length=10, default="phone")
@@ -48,17 +47,15 @@ class DeveloperSkill(models.Model):
     def __unicode__(self):
         return u'%s %s' % (self.developer, self.skill)
 
-
-# ExtraCredit model
-class ExtraCredit(models.Model):
-    recipient = models.ForeignKey(Developer, related_name='extracredit_recipient')
-    sender = models.ForeignKey(Developer, related_name='extracredit_sender')
-    skill = models.ForeignKey(Skill, related_name='extracredit_skill')
-    description = models.TextField(blank=True, null=True)
-    date_credited = models.DateField(auto_now_add=True)
-
-    def __str__(self):
-        return '%s %s -> %s %s - %s' % (self.sender.user.first_name, self.recipient.user.last_name, self.recipient.user.first_name, self.recipient.user.last_name, self.skill.name)
+    def get_proficiency_string(self):
+        proficiency_string = ""
+        if self.proficiency == 1:
+            proficiency_string = "Low"
+        elif self.proficiency == 2:
+            proficiency_string = "Medium"
+        elif self.proficiency == 3:
+            proficiency_string = "High"
+        return proficiency_string
 
 
 # Project model
@@ -68,7 +65,7 @@ class Project(models.Model):
     pi = models.CharField(max_length=30)
 
     def __str__(self):
-        return '%s' % (self.name)
+        return '%s' % self.name
 
 
 # ProjectSkill model
@@ -77,7 +74,7 @@ class ProjectSkill(models.Model):
     skill = models.ForeignKey('Skill', on_delete=models.CASCADE)
 
     def __str__(self):
-        return '%s' % (self.skill.name)
+        return '%s' % self.skill.name
 
 
 # ProjectDeveloper model
@@ -86,6 +83,6 @@ class ProjectDeveloper(models.Model):
     developer = models.ForeignKey('Developer', on_delete=models.CASCADE)
 
     def __str__(self):
-        return '%s %s' % (self.developer.user.first_name)
+        return '%s %s' % self.developer.user.first_name
 
 

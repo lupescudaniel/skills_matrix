@@ -26,9 +26,9 @@ urlpatterns = [
     url(r'^developer_detail/(?P<pk>\d+)/$', DeveloperDetail.as_view(), name="developer_detail"),
     url(r'^my_developer_details/$', DeveloperDetailMe.as_view(), name="my_developer_details"),
     url(r'^developer/(?P<pk>\d+)/update/$', DeveloperUpdate.as_view(), name="developer_update"),
-    url(r'^extracredit/send/$', ExtraCreditCreateView.as_view(), name="send_extra_credit"),
     url(r'^skills/$', SkillsList.as_view(), name="skills_list"),
     url(r'^skills/(?P<skill_id>\d+)/$', DeveloperListBySkill.as_view(), name='developer_list_by_skill'),
     url(r'^skills/add/$', AddSkill.as_view(), name='add_skill'),
-    url(r'^matrix/$', Matrix.as_view(), name='matrix')
+    url(r'^matrix/$', Matrix.as_view(), name='matrix'),
+    url(r'^matrix/filter-matrix/$', 'skillsmatrix.views.matrix.FilterMatrix', name='filter_matrix')
 ]

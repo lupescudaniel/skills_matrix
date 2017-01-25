@@ -1,5 +1,5 @@
 from django.contrib import admin
-from skillsmatrix.models import Skill, Developer, DeveloperSkill, ExtraCredit, Project, ProjectDeveloper, ProjectSkill
+from skillsmatrix.models import Skill, Developer, DeveloperSkill, Project, ProjectDeveloper, ProjectSkill
 
 
 # Skill admin configuration
@@ -25,10 +25,6 @@ class DeveloperSkillAdmin(admin.ModelAdmin):
     get_developer_username.short_description = 'Developer Username'
 
 admin.site.register(DeveloperSkill, DeveloperSkillAdmin)
-
-
-# ExtraCredit admin configuration
-admin.site.register(ExtraCredit)
 
 # Project admin configuration
 admin.site.register(Project)

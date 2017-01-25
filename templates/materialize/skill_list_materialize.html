@@ -8,23 +8,12 @@
         </li>
         {% for object in object_list %}
 
-            <li class="collection-item avatar">
-                <img src="{% static 'images/skill-icon2.jpg' %}" alt="" class="circle">
-                <span class="title" style="font-weight: bold; font-size: large;"><a href="{{ object.id }}">{{ object.name }}</a></span>
-
-                <p>{{ object.family }} <br>
+            <li class="collection-item">
+                <h5><a href="{{ object.id }}">{{ object.name }}</a></h5>
+                <div>{{ object.family }}<br/>
                    Difficulty: {{ object.difficulty }}
-                </p>
+                </div>
             </li>
-            <!--li class="collection-item">
-                <div class="col s6 m6 blue-text" style="font-weight: bold; font-size: large;"><a href="#!">{{ object.name }}</a>
-                    <!--div class="chip secondary-content">{{ object.family }}</div>
-                    <div class="chip secondary-content">{{ object.difficulty }}</div-->
-                    <!--a href="#!" class="secondary-content"><i class="material-icons icon-blue">search</i></a-->
-                <!--/div>
-                <div>{{ object.family }}<br>
-            Difficulty: {{ object.difficulty }}</div>
-            </li-->
         {% endfor %}
     </ul>
 {% endblock %}
