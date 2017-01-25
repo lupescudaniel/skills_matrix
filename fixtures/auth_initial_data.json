@@ -297,33 +297,6 @@
   }
 },
 {
-  "model": "auth.permission",
-  "pk": 37,
-  "fields": {
-    "name": "Can add project developer",
-    "content_type": 13,
-    "codename": "add_projectdeveloper"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 38,
-  "fields": {
-    "name": "Can change project developer",
-    "content_type": 13,
-    "codename": "change_projectdeveloper"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 39,
-  "fields": {
-    "name": "Can delete project developer",
-    "content_type": 13,
-    "codename": "delete_projectdeveloper"
-  }
-},
-{
   "model": "auth.user",
   "pk": 1,
   "fields": {
@@ -580,7 +553,7 @@
   "pk": 15,
   "fields": {
     "password": "pbkdf2_sha256$24000$jlbSVYwSUUxh$cKYjAUl0xADRHkqBj+0tdMZBxP/503kuIRfYqjTWinI=",
-    "last_login": "2017-01-19T18:32:39.882Z",
+    "last_login": "2017-01-25T20:46:01.832Z",
     "is_superuser": true,
     "username": "bethbeth",
     "first_name": "",
