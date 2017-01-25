@@ -244,29 +244,101 @@
 },
 {
   "model": "auth.permission",
-  "pk": 28,
+  "pk": 31,
   "fields": {
-    "name": "Can add extra credit",
-    "content_type": 10,
-    "codename": "add_extracredit"
+    "name": "Can add project",
+    "content_type": 11,
+    "codename": "add_project"
   }
 },
 {
   "model": "auth.permission",
-  "pk": 29,
+  "pk": 32,
   "fields": {
-    "name": "Can change extra credit",
-    "content_type": 10,
-    "codename": "change_extracredit"
+    "name": "Can change project",
+    "content_type": 11,
+    "codename": "change_project"
   }
 },
 {
   "model": "auth.permission",
-  "pk": 30,
+  "pk": 33,
   "fields": {
-    "name": "Can delete extra credit",
-    "content_type": 10,
-    "codename": "delete_extracredit"
+    "name": "Can delete project",
+    "content_type": 11,
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can add project skill",
+    "content_type": 12,
+    "codename": "add_projectskill"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can change project skill",
+    "content_type": 12,
+    "codename": "change_projectskill"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can delete project skill",
+    "content_type": 12,
+    "codename": "delete_projectskill"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add project developer",
+    "content_type": 13,
+    "codename": "add_projectdeveloper"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change project developer",
+    "content_type": 13,
+    "codename": "change_projectdeveloper"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete project developer",
+    "content_type": 13,
+    "codename": "delete_projectdeveloper"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$1XWSG7KMw2eC$eWGmtWt3SXlBpe/FijUtGBWtWHmXUF+Y6cDc91wlO/I=",
+    "last_login": "2016-05-26T19:38:51.186Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "ecaldwe1@nd.edu",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-05-24T17:17:51.305Z",
+    "groups": [],
+    "user_permissions": []
   }
 },
 {
@@ -381,13 +453,13 @@
   "model": "auth.user",
   "pk": 8,
   "fields": {
-    "password": "pbkdf2_sha256$24000$VXYZNm9GvObM$A8ejcSUBu1Dlys5CyFZ9gn4Cg5SLuV6uFs8zZ9NjTRE=",
-    "last_login": null,
+    "password": "pbkdf2_sha256$24000$BkA5UGfCApPy$xdJvaxxuykFnEoh+kc6cdalqNAIhO/9cInxw+EBkMt4=",
+    "last_login": "2017-01-19T18:31:02Z",
     "is_superuser": false,
     "username": "beth",
     "first_name": "Beth",
     "last_name": "Caldwell",
-    "email": "bcaldwe1@nd.edu",
+    "email": "ecaldwe1@nd.edu",
     "is_staff": false,
     "is_active": true,
     "date_joined": "2016-05-22T14:01:05Z",
@@ -499,6 +571,42 @@
     "is_staff": false,
     "is_active": true,
     "date_joined": "2016-05-22T14:06:46Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$jlbSVYwSUUxh$cKYjAUl0xADRHkqBj+0tdMZBxP/503kuIRfYqjTWinI=",
+    "last_login": "2017-01-19T18:32:39.882Z",
+    "is_superuser": true,
+    "username": "bethbeth",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-01-19T18:24:14.951Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$DLsIDaLsUsyD$YBFnVcfWTyP/Gg9sv2VWk2eTEQSFTPGTFUefuLUxvLo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adam",
+    "first_name": "Adam",
+    "last_name": "Brinckman",
+    "email": "abrinckm@nd.edu",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2017-01-19T18:33:07Z",
     "groups": [],
     "user_permissions": []
   }
