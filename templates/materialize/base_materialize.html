@@ -27,10 +27,26 @@
     <div class="nav-wrapper container"><a id="logo-container" href="{% url 'home_page' %}" class="brand-logo">Skills
         Matrix</a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="{% url 'home_page' %}"><i class="material-icons">home</i></a></li>
-            <li><a href="{% url 'developer_list' %}"><i class="material-icons">people</i></a></li>
-            <li><a href="{% url 'skills_list' %}"><i class="material-icons">work</i></a></li>
-            <li><a href="{% url 'matrix' %}"><i class="material-icons">assessment</i></a></li>
+            <li><a href="{% url 'home_page' %}"
+                    class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Home">
+                    <i class="material-icons">home</i>
+                </a>
+            </li>
+            <li><a href="{% url 'developer_list' %}"
+                        class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Developers">
+                    <i class="material-icons">people</i>
+                </a>
+            </li>
+            <li><a href="{% url 'skills_list' %}"
+                        class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Skills">
+                    <i class="material-icons">work</i>
+                </a>
+            </li>
+            <li><a href="{% url 'matrix' %}"
+                        class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Skills Matrix">
+                    <i class="material-icons">assessment</i>
+                </a>
+            </li>
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">
                 {{ request.user }}<i
