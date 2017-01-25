@@ -13,3 +13,7 @@ class Home(TemplateView):
         context['developerskills_count'] = DeveloperSkill.objects.count()
 
         return context
+
+
+class ScrumResourcesView(TemplateView):
+    template_name = "materialize/scrum_resources.html"
