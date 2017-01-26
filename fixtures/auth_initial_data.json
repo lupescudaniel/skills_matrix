@@ -297,11 +297,38 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can add project developer",
+    "content_type": 13,
+    "codename": "add_projectdeveloper"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can change project developer",
+    "content_type": 13,
+    "codename": "change_projectdeveloper"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can delete project developer",
+    "content_type": 13,
+    "codename": "delete_projectdeveloper"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$24000$1XWSG7KMw2eC$eWGmtWt3SXlBpe/FijUtGBWtWHmXUF+Y6cDc91wlO/I=",
-    "last_login": "2016-05-26T19:38:51.186Z",
+    "password": "pbkdf2_sha256$24000$JlkJPhHHEZWW$b7CR0WF4a4ME0r/pQmOSo1wDVFvkwXg7Crnkd0joecY=",
+    "last_login": "2017-01-26T14:51:59.426Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -309,7 +336,7 @@
     "email": "ecaldwe1@nd.edu",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2016-05-24T17:17:51.305Z",
+    "date_joined": "2016-05-24T17:17:51Z",
     "groups": [],
     "user_permissions": []
   }
@@ -321,7 +348,7 @@
     "password": "pbkdf2_sha256$24000$pz6dtMyU2qec$Y01tWA4EiqLpLfsHwgaHRB8UxMoMmYoo99lFit9yT0I=",
     "last_login": null,
     "is_superuser": false,
-    "username": "dave",
+    "username": "dpettifo",
     "first_name": "David",
     "last_name": "Pettifor",
     "email": "dpettifo@nd.edu",
@@ -339,7 +366,7 @@
     "password": "pbkdf2_sha256$24000$xtryOtSln8DV$1AvbO9dpFt3Tk3U/lN+2Qa05jSnKp3ulnvRyXjz3LFo=",
     "last_login": null,
     "is_superuser": false,
-    "username": "brett",
+    "username": "bfox6",
     "first_name": "Brett",
     "last_name": "Fox",
     "email": "bfox6@nd.edu",
@@ -357,7 +384,7 @@
     "password": "pbkdf2_sha256$24000$HsVqVsKDIK2l$bis8bhcLMM+OVVS5tUd0wU43CGYK9Z9v1fKOEarFDv8=",
     "last_login": null,
     "is_superuser": false,
-    "username": "sam",
+    "username": "snjoroge",
     "first_name": "Sam",
     "last_name": "Njoroge",
     "email": "Samuel.W.Njoroge.5@nd.edu",
@@ -375,7 +402,7 @@
     "password": "pbkdf2_sha256$24000$r6F7RussUxqR$2kYIIRW+ZYi6DWRYELE3fvd6uK8ce04REa0+EaTltfc=",
     "last_login": null,
     "is_superuser": false,
-    "username": "rob_h",
+    "username": "khostetl",
     "first_name": "Rob",
     "last_name": "Hostetler",
     "email": "Keith.R.Hostetler.18@nd.edu",
@@ -393,7 +420,7 @@
     "password": "pbkdf2_sha256$24000$K9f08A3rS7Oj$hbjEP0hGmwnXSMgQ5WXDy6StJk2cJoIfpInib56/6yo=",
     "last_login": null,
     "is_superuser": false,
-    "username": "rob_w",
+    "username": "rwieck",
     "first_name": "Rob",
     "last_name": "Wieck",
     "email": "rwieck@nd.edu",
@@ -411,7 +438,7 @@
     "password": "pbkdf2_sha256$24000$QYto8Gls3nH1$WYMRdfLgafzTRDizfzXmV7ULmfznLuVECWCt6oHQi3g=",
     "last_login": null,
     "is_superuser": false,
-    "username": "caleb",
+    "username": "creinkin",
     "first_name": "Caleb",
     "last_name": "Reinking",
     "email": "creinkin@nd.edu",
@@ -429,7 +456,7 @@
     "password": "pbkdf2_sha256$24000$BkA5UGfCApPy$xdJvaxxuykFnEoh+kc6cdalqNAIhO/9cInxw+EBkMt4=",
     "last_login": "2017-01-19T18:31:02Z",
     "is_superuser": false,
-    "username": "beth",
+    "username": "ecaldwe1",
     "first_name": "Beth",
     "last_name": "Caldwell",
     "email": "ecaldwe1@nd.edu",
@@ -447,7 +474,7 @@
     "password": "pbkdf2_sha256$24000$0HDA5nIStzyP$EOAMEgpgqGBgqbAnuSwGuSuTlTfSewG1fHa0UJ0yylI=",
     "last_login": null,
     "is_superuser": false,
-    "username": "jared",
+    "username": "jolson6",
     "first_name": "Jared",
     "last_name": "Olson",
     "email": "jolson6@nd.edu",
@@ -460,30 +487,12 @@
 },
 {
   "model": "auth.user",
-  "pk": 10,
-  "fields": {
-    "password": "pbkdf2_sha256$24000$yjuQ8rGhjiJA$2K+VUx/efqXyl0Kl2RqkYiaMOuBAJ3UlDtXp1arVS/k=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "charles",
-    "first_name": "Charles",
-    "last_name": "Williams",
-    "email": "cwilli34@nd.edu",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2016-05-22T14:02:01Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
   "pk": 11,
   "fields": {
     "password": "pbkdf2_sha256$24000$sWYLQPUSDx0S$y9eJqR4gzgX0mrbVO+8X3ktkTBoPGa+IwBtAeXUsQH4=",
     "last_login": null,
     "is_superuser": false,
-    "username": "scott",
+    "username": "sszakony",
     "first_name": "Scott",
     "last_name": "Szakonyi",
     "email": "sszakony@nd.edu",
@@ -501,7 +510,7 @@
     "password": "pbkdf2_sha256$24000$1PyA49zV2eE4$Boe/NgBm35Oyf3N7AeiBsIxuoc3oluiyoDHYyI9yWaE=",
     "last_login": null,
     "is_superuser": false,
-    "username": "antelmo",
+    "username": "aaguilar",
     "first_name": "Antelmo",
     "last_name": "Aguilar",
     "email": "aaguilar@nd.edu",
@@ -514,30 +523,12 @@
 },
 {
   "model": "auth.user",
-  "pk": 13,
-  "fields": {
-    "password": "pbkdf2_sha256$24000$SsvVpK3zzHQ6$nsNx+G90ZDcTyVMfLdrK31fzCqJjkoKdxC0p07ytMCw=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "nic",
-    "first_name": "Nic",
-    "last_name": "Reed",
-    "email": "nreed4@nd.edu",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2016-05-22T14:06:17Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
   "pk": 14,
   "fields": {
     "password": "pbkdf2_sha256$24000$A24GAZcqqxKv$0X8F8fF0ybDhCVKgj2mrorypTOOqGypBMdj0kA6vsZw=",
     "last_login": null,
     "is_superuser": false,
-    "username": "alex",
+    "username": "avyushko",
     "first_name": "Alex",
     "last_name": "Vyushkov",
     "email": "avyushko@nd.edu",
@@ -550,30 +541,12 @@
 },
 {
   "model": "auth.user",
-  "pk": 15,
-  "fields": {
-    "password": "pbkdf2_sha256$24000$jlbSVYwSUUxh$cKYjAUl0xADRHkqBj+0tdMZBxP/503kuIRfYqjTWinI=",
-    "last_login": "2017-01-25T20:46:01.832Z",
-    "is_superuser": true,
-    "username": "bethbeth",
-    "first_name": "",
-    "last_name": "",
-    "email": "",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2017-01-19T18:24:14.951Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
   "pk": 16,
   "fields": {
     "password": "pbkdf2_sha256$24000$DLsIDaLsUsyD$YBFnVcfWTyP/Gg9sv2VWk2eTEQSFTPGTFUefuLUxvLo=",
     "last_login": null,
     "is_superuser": false,
-    "username": "adam",
+    "username": "abrinckm",
     "first_name": "Adam",
     "last_name": "Brinckman",
     "email": "abrinckm@nd.edu",
