@@ -1,4 +1,5 @@
 # View file for developer pages
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import *
 from skillsmatrix.models import Developer, DeveloperSkill, Skill
 from django.core.urlresolvers import reverse
@@ -36,7 +37,7 @@ class DeveloperDetail(DetailView):
 
 
 # DetailView of current logged in user
-class DeveloperDetailMe(DeveloperDetail):
+class DeveloperDetailMe(LoginRequiredMixin, DeveloperDetail):
     def get_object(self):
         return Developer.objects.get(user=self.request.user)
 

@@ -51,7 +51,10 @@
             </a></li>
             {% for skill in skills %}
                 <li class="collection-item blue-text">
-                    <h5><a class="orange-text" href="{% url 'developer_list_by_skill' skill.skill.id %}">{{ skill.skill }}</a></h5>
+                    <h5>
+                        <a class="orange-text" href="{% url 'developer_list_by_skill' skill.skill.id %}">{{ skill.skill }}</a>
+                        {% if isCurrentUser %}<i class="material-icons secondary-content"><a href="{% url 'edit_skill' skill.id %}">edit</a></i>{% endif %}
+                    </h5>
                     <div class="row">
                         <div class="col s6">Proficiency: {{ skill.get_proficiency_string }}
                             <br/>Experience: {{ skill.years_of_experience }} year(s)

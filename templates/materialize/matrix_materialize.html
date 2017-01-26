@@ -51,7 +51,7 @@
 
                 $.ajax({
                     method: "GET",
-                    url: "/matrix/filter-matrix/",
+                    url: "{% url "filter_matrix" %}",
                     data: filter_data
                 }).done(function (contextdata) {
                     developers = contextdata["dev_names"];
