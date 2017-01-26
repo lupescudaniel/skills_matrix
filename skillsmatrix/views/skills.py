@@ -1,5 +1,7 @@
 # View file for Skills pages
 from django import forms
+from django.core.exceptions import ObjectDoesNotExist
+from django.http.response import Http404
 from django.views.generic import *
 from skillsmatrix.models import Skill, DeveloperSkill, Developer
 
@@ -34,3 +36,37 @@ class AddSkill(CreateView):
         initial['developer'] = Developer.objects.get(user=self.request.user)
         print(self.request.user)
         return initial
+
+    def get_context_data(self, **kwargs):
+        context = super(AddSkill, self).get_context_data()
+        context['skill_action'] = "Add"
+        context['skill_name'] = "Skill"
+        return context
+
+
+class EditSkill(UpdateView):
+    model = DeveloperSkill
+    template_name = 'materialize/skill_add_materialize.html'
+    success_url = '/my_developer_details'
+    fields = '__all__'
+
+    def get_form(self, form_class=None):
+        form = super(EditSkill, self).get_form()
+        form.fields['developer'].widget = forms.HiddenInput()
+        form.fields['skill'].widget = forms.HiddenInput()
+
+        return form
+
+    def get_object(self, queryset=None):
+        try:
+            obj = DeveloperSkill.objects.get(id=self.kwargs['skill_id'])
+            return obj
+        except ObjectDoesNotExist:
+            raise Http404("No object found matching this query")
+
+    def get_context_data(self, **kwargs):
+        context = super(EditSkill, self).get_context_data()
+        context['skill_action'] = "Edit"
+        context['skill_name'] = str(DeveloperSkill.objects.get(id=self.kwargs['skill_id']).skill.name) + " Skill"
+
+        return context

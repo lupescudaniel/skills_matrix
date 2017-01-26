@@ -29,6 +29,7 @@ urlpatterns = [
     url(r'^skills/$', SkillsList.as_view(), name="skills_list"),
     url(r'^skills/(?P<skill_id>\d+)/$', DeveloperListBySkill.as_view(), name='developer_list_by_skill'),
     url(r'^skills/add/$', AddSkill.as_view(), name='add_skill'),
+    url(r'^skills/edit/(?P<skill_id>\d+)/$', EditSkill.as_view(), name='edit_skill'),
     url(r'^matrix/$', Matrix.as_view(), name='matrix'),
     url(r'^matrix/filter-matrix/$', FilterMatrix, name='filter_matrix'),
     url(r'^scrum-resources', ScrumResourcesView.as_view(), name='scrum_resources')

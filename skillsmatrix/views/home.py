@@ -1,9 +1,10 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import *
 from skillsmatrix.models import *
 
 
 #View file for the homepage
-class Home(TemplateView):
+class Home(LoginRequiredMixin, TemplateView):
     template_name = "materialize/base_materialize.html"
 
     def get_context_data(self, **kwargs):
