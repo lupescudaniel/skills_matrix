@@ -18,6 +18,8 @@ class Skill(models.Model):
     name = models.CharField(max_length=512)
     difficulty = models.IntegerField()
     family = models.CharField(max_length=256)
+    description = models.TextField(default="")
+    skill_url = models.CharField(max_length=512, default="")
 
     def __str__(self):
         return self.name
