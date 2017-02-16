@@ -1,5 +1,6 @@
 # View file for developer pages
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.core.exceptions import PermissionDenied
 from django.views.generic import *
 from skillsmatrix.models import Developer, DeveloperSkill, Skill
 from django.core.urlresolvers import reverse
@@ -37,7 +38,14 @@ class DeveloperDetail(DetailView):
 
 
 # DetailView of current logged in user
-class DeveloperDetailMe(LoginRequiredMixin, DeveloperDetail):
+class DeveloperDetailMe(LoginRequiredMixin, UserPassesTestMixin, DeveloperDetail):
+    def test_func(self):
+        dev = Developer.objects.filter(user=self.request.user)
+        if dev:
+            return True
+        else:
+            raise PermissionDenied
+
     def get_object(self):
         return Developer.objects.get(user=self.request.user)
 
@@ -77,4 +85,5 @@ class DeveloperListBySkill(ListView):
         skill_id = self.kwargs['skill_id']
         skill_obj = Skill.objects.get(id=skill_id)
         context['skill_name'] = skill_obj.name
+        context['skill_object'] = skill_obj
         return context
