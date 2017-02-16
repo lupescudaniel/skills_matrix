@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 
+from django.core.exceptions import ValidationError
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -56,6 +57,19 @@ class DeveloperSkill(models.Model):
         elif self.proficiency == 3:
             proficiency_string = "High"
         return proficiency_string
+
+    def validate_unique(self, exclude=None):
+        '''
+        Check if the developer has already added this skill.
+        '''
+        qs = DeveloperSkill.objects.filter(developer=self.developer, skill=self.skill)
+        if qs:
+            raise ValidationError('You already added this skill.')
+
+    def save(self, *args, **kwargs):
+        self.validate_unique()
+
+        super(DeveloperSkill, self).save(*args, **kwargs)
 
 
 # Project model
