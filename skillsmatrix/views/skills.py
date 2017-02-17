@@ -3,6 +3,8 @@ from django import forms
 from django.core.exceptions import ObjectDoesNotExist
 from django.http.response import Http404
 from django.views.generic import *
+from django.forms import modelformset_factory
+
 from skillsmatrix.models import Skill, DeveloperSkill, Developer
 
 from django.views.generic.edit import CreateView
@@ -70,3 +72,23 @@ class EditSkill(UpdateView):
         context['skill_name'] = str(DeveloperSkill.objects.get(id=self.kwargs['skill_id']).skill.name) + " Skill"
 
         return context
+
+
+class BulkAddSkills(TemplateView):
+    template_name = 'materialize/bulk_add_skills.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(BulkAddSkills, self).get_context_data()
+
+        DevSkillFormSet = modelformset_factory(DeveloperSkill, fields=('skill', 'has_skill', 'proficiency', 'developer'))
+        formset = DevSkillFormSet(queryset=DeveloperSkill.objects.filter(developer__user=self.request.user))
+
+        print(formset)
+
+        context['formset'] = formset
+        context['skill_action'] = "Add"
+        context['skill_name'] = "Skill"
+        return context
+
+    # def get_queryset(self):
+    #     return super(BulkAddSkills, self).get_queryset().filter(developer__user=self.request.user)

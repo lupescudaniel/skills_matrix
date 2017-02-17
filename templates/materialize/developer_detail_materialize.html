@@ -45,6 +45,10 @@
             <a href="{% url 'add_skill' %}"><strong>Add new skill</strong>
                 <i class="material-icons secondary-content">add</i>
             </a></li>
+            <li class="collection-item blue-text" {% if not isCurrentUser %} hidden {% endif %}>
+            <a href="{% url 'bulk_add_skills' %}"><strong>Add many skills</strong>
+                <i class="material-icons secondary-content">add</i>
+            </a></li>
             {% for skill in skills %}
                 <li class="collection-item blue-text">
                     <h5>

@@ -1,0 +1,24 @@
+{% extends 'materialize/base_materialize.html' %}
+
+{% block content %}
+    <div class="container">
+    <br/>
+        <h5 class="orange-text">{{ skill_action }} {{ skill_name }}</h5>
+        <div class="divider"></div>
+
+        {% for form in formset %}
+            {% for field in form %}
+
+            {% endfor %}
+        {% endfor %}
+
+    </div>
+{% endblock content %}
+
+{% block extra_js %}
+    <script>
+        $(document).ready(function() {
+            $('select').material_select();
+        });
+    </script>
+{% endblock %}

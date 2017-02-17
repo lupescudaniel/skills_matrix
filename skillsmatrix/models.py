@@ -42,8 +42,9 @@ class Developer(models.Model):
 class DeveloperSkill(models.Model):
     developer = models.ForeignKey('Developer', on_delete=models.CASCADE)
     skill = models.ForeignKey('Skill', on_delete=models.CASCADE)
-    proficiency = models.IntegerField(choices=PROFICIENCY_CHOICES)
-    years_of_experience = models.IntegerField()
+    proficiency = models.IntegerField(choices=PROFICIENCY_CHOICES, blank=True, null=True)
+    years_of_experience = models.IntegerField(blank=True, null=True)
+    has_skill = models.BooleanField(default=False)
 
     def __unicode__(self):
         return u'%s %s' % (self.developer, self.skill)
@@ -58,18 +59,18 @@ class DeveloperSkill(models.Model):
             proficiency_string = "High"
         return proficiency_string
 
-    def validate_unique(self, exclude=None):
-        '''
-        Check if the developer has already added this skill.
-        '''
-        qs = DeveloperSkill.objects.filter(developer=self.developer, skill=self.skill)
-        if qs:
-            raise ValidationError('You already added this skill.')
-
-    def save(self, *args, **kwargs):
-        self.validate_unique()
-
-        super(DeveloperSkill, self).save(*args, **kwargs)
+    # def validate_unique(self, exclude=None):
+    #     '''
+    #     Check if the developer has already added this skill.
+    #     '''
+    #     qs = DeveloperSkill.objects.filter(developer=self.developer, skill=self.skill)
+    #     if qs:
+    #         raise ValidationError('You already added this skill.')
+    #
+    # def save(self, *args, **kwargs):
+    #     self.validate_unique()
+    #
+    #     super(DeveloperSkill, self).save(*args, **kwargs)
 
 
 # Project model
