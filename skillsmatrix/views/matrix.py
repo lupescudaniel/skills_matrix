@@ -41,6 +41,7 @@ class Matrix(TemplateView):
         # Get list of each developer skill -
         # must be format [index of dev in devs, index of skill in skills, proficiency]
         devskills = []
+
         # Loop through each developer
         for dev in dev_list:
             # Loop through each skill
@@ -54,11 +55,16 @@ class Matrix(TemplateView):
 
                 try:
                     devskill = DeveloperSkill.objects.get(developer=dev['id'], skill=skill['id'])
-                    dskill = [dev_index, skill_index, devskill.proficiency]
+
+                    if devskill.has_skill:
+                        dskill = [dev_index, skill_index, devskill.proficiency]
+
+                    else:
+                        dskill = [dev_index, skill_index, 0]
                     devskills.append(dskill)
-                except ObjectDoesNotExist:
-                    no_skill_item = [dev_index, skill_index, 0]
-                    devskills.append(no_skill_item)
+                    print(devskills)
+                except:
+                    pass
 
         devskills.sort()
 
