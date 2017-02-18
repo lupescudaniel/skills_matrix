@@ -1,14 +1,16 @@
 # View file for Skills pages
 from django import forms
+from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ObjectDoesNotExist
-from django.http.response import Http404
+from django.http.response import Http404, HttpResponseRedirect, HttpResponse
 from django.views.generic import *
-from django.forms import modelformset_factory
+from django.views.decorators.http import require_http_methods
 
 from skillsmatrix.models import Skill, DeveloperSkill, Developer
 
 from django.views.generic.edit import CreateView
-
+from django.core.urlresolvers import reverse
+import json
 
 # ListView that lists all of the skills using the skills_list_materialize.html template
 class SkillsList(ListView):
@@ -80,15 +82,38 @@ class BulkAddSkills(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(BulkAddSkills, self).get_context_data()
 
-        DevSkillFormSet = modelformset_factory(DeveloperSkill, fields=('skill', 'has_skill', 'proficiency', 'developer'))
-        formset = DevSkillFormSet(queryset=DeveloperSkill.objects.filter(developer__user=self.request.user))
+        skill_families = Skill.objects.filter().values_list('family')
+        skill_families_list = []
+        for s in skill_families:
+            skill_families_list.append(str(s[0]))
+        skill_family_unique = list(set(skill_families_list))
 
-        print(formset)
+        all_dev_skills = DeveloperSkill.objects.filter(developer__user=self.request.user)
 
-        context['formset'] = formset
+        context['my_skills'] = all_dev_skills
+        context['skill_family_list'] = skill_family_unique
         context['skill_action'] = "Add"
         context['skill_name'] = "Skill"
         return context
 
-    # def get_queryset(self):
-    #     return super(BulkAddSkills, self).get_queryset().filter(developer__user=self.request.user)
+
+@login_required
+@require_http_methods(["POST"])
+def bulk_update_skill_view(request):
+    print("HI IN VIEW")
+    print(request.POST)
+
+    for skill in json.loads(request.POST.get('skills_list', [])):
+        devskill = DeveloperSkill.objects.get(id=skill[u'id'], developer__user=request.user)
+        devskill.has_skill = skill[u'has_skill']
+        print("IN VIEW")
+        print(devskill.has_skill)
+        if not devskill.has_skill:
+            devskill.proficiency = None
+            devskill.years_of_experience = None
+        else:
+            devskill.proficiency = skill[u'proficiency']
+            devskill.years_of_experience = skill[u'years_of_experience']
+        devskill.save()
+    return HttpResponse('{response: "success"}', content_type='application/json')
+    #Redirect(reverse('my_developer_details'))

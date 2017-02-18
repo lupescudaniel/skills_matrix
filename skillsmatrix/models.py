@@ -17,7 +17,7 @@ PROFICIENCY_CHOICES = (
 # Skill model
 class Skill(models.Model):
     name = models.CharField(max_length=512)
-    difficulty = models.IntegerField()
+    difficulty = models.IntegerField(blank=True, null=True)
     family = models.CharField(max_length=256)
     description = models.TextField(default="")
     skill_url = models.CharField(max_length=512, default="")

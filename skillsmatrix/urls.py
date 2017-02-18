@@ -30,6 +30,7 @@ urlpatterns = [
     url(r'^skills/(?P<skill_id>\d+)/$', DeveloperListBySkill.as_view(), name='developer_list_by_skill'),
     url(r'^skills/add/$', AddSkill.as_view(), name='add_skill'),
     url(r'^skills/add-many/$', BulkAddSkills.as_view(), name='bulk_add_skills'),
+    url(r'^skills/update-many/$', bulk_update_skill_view, name='bulk_update_skills'),
     url(r'^skills/edit/(?P<skill_id>\d+)/$', EditSkill.as_view(), name='edit_skill'),
     url(r'^matrix/$', Matrix.as_view(), name='matrix'),
     url(r'^matrix/filter-matrix/$', FilterMatrix, name='filter_matrix'),
