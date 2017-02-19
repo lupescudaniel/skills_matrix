@@ -218,7 +218,7 @@
                                        id="deselectAllSkillBtn">None</a>
                                 </div>
                                 {% for skill in skills %}
-                                    <input type="checkbox" id="{{ skill }}-skill" class="skillbox" value="{{ skill }}"/>
+                                    <input type="checkbox" id="{{ skill }}-skill" class="my-orange-checkbox skillbox" value="{{ skill }}"/>
                                     <label for="{{ skill }}-skill">{{ skill }}</label>
                                     <br/>
                                 {% endfor %}
@@ -231,7 +231,7 @@
                                     <a class="btn waves-effect waves-light orange filter-btn-xs" id="deselectAllDevBtn">None</a>
                                 </div>
                                 {% for dev in dev_filter_list %}
-                                    <input type="checkbox" id="{{ dev.last_name }}-developer" class="devbox"
+                                    <input type="checkbox" id="{{ dev.last_name }}-developer" class="my-orange-checkbox devbox"
                                            value="{{ dev.id }}"/>
                                     <label for="{{ dev.last_name }}-developer">{{ dev.first_name }} {{ dev.last_name }}</label>
                                     <br/>
