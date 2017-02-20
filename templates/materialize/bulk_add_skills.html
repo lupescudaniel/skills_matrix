@@ -72,7 +72,8 @@
 
                     skill_name = $(this).find(".has-skill-label").attr('id');
 
-                    if(skill_obj.has_skill && (skill_obj.proficiency===null | skill_obj.years_of_experience===null)) {
+                    if(skill_obj.has_skill && (skill_obj.proficiency===null |
+                            (skill_obj.years_of_experience===null | skill_obj.years_of_experience===0))) {
                         skill_err_obj = {
                             'skill_obj': skill_obj,
                             'skill_name': skill_name
