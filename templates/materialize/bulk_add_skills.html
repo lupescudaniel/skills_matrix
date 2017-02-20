@@ -7,7 +7,7 @@
                 <li>
                     <div class="collapsible-header"><i class="material-icons orange-text">add_circle</i>{{ family }}</div>
                     <div class="collapsible-body">
-                            <ul class="collection">
+                            <ul class="collection" style="overflow: visible;">
                                 {% for devskill in my_skills %}
                                     {% if devskill.skill.family == family %}
                                         <li class="collection-item" style="height: 100%;">
