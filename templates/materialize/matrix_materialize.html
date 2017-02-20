@@ -164,7 +164,10 @@
                     data: {{ devskills }},
                     dataLabels: {
                         enabled: true,
-                        color: '#000000'
+                        color: '#000000',
+                        formatter: function () {
+                            return getMatrixProficiencyString(this.point.value);
+                }
                     },
                     navigation: {
                         buttonOptions: {
@@ -186,6 +189,18 @@
 
         function getProficiencyString(prof_value) {
             var prof_string = "no";
+            if (prof_value == 1) {
+                prof_string = "Low";
+            } else if (prof_value == 2) {
+                prof_string = "Medium";
+            } else if (prof_value == 3) {
+                prof_string = "High";
+            }
+            return prof_string;
+        }
+
+        function getMatrixProficiencyString(prof_value) {
+            var prof_string = "";
             if (prof_value == 1) {
                 prof_string = "Low";
             } else if (prof_value == 2) {
