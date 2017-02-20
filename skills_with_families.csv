@@ -1,0 +1,55 @@
+Python,Language,,https://www.python.org/
+C,Language,,
+C++,Language,,http://www.cplusplus.com/
+Javascript,Language,,https://www.javascript.com/
+Go,Language,,https://golang.org/
+Java,Language,,https://www.oracle.com/java/index.html
+HTML,Language,,https://developer.mozilla.org/en-US/docs/Web/HTML
+CSS,Language,,https://developer.mozilla.org/en-US/docs/Web/CSS
+.NET,Language,,https://www.microsoft.com/net
+Perl,Language,,https://www.perl.org/
+PHP,Language,,https://secure.php.net/
+WebGL,Frontend Web Framework,,
+Angular.js,Frontend Web Framework,,https://angularjs.org/
+Ember.js,Frontend Web Framework,,http://emberjs.com/
+Bootstrap,Frontend Web Framework,,http://getbootstrap.com/
+jQuery,Frontend Web Framework,,https://jquery.com/
+MaterializeCSS,Frontend Web Framework,,materializecss.com
+Backbone.js,Frontend Web Framework,,http://backbonejs.org/
+Knockout.js,Frontend Web Framework,,http://knockoutjs.com/
+Drupal,Backend Web Framework,,https://www.drupal.org/
+Node.js,Backend Web Framework,,https://nodejs.org/en/
+Express,Backend Web Framework,,http://expressjs.com/
+Django,Backend Web Framework,,https://www.djangoproject.com/
+Django Rest Framework,Backend Web Framework,,http://www.django-rest-framework.org/
+Flask,Backend Web Framework,,http://flask.pocoo.org/
+Tornado,Backend Web Framework,,http://www.tornadoweb.org/en/stable/
+Joomla,Backend Web Framework,,https://www.joomla.org/
+AJAX,Concept,,
+Single Page Applications,Concept,,
+Model View Controller,Concept,,
+NoSQL,Concept,,
+Federated Authentication,Concept,,
+SQLite,Datastore,,
+PostgreSQL,Datastore,,
+MySQL,Datastore,,
+MongoDB,Datastore,,
+ElasticSearch,Datastore,,
+Apache SOLR,Datastore,,
+Varnish,Datastore,,
+Redis,Datastore,,
+PhoneGap,Mobile Development,,
+Swift,Mobile Development,,
+Android Native ,Mobile Development,,
+Redhat,Systems Administration,,
+Ubuntu,Systems Administration,,
+"Provisioners (Salt, Puppet, etc.)",Systems Administration,,
+Apache,Systems Administration,,
+Nginx,Systems Administration,,
+Vagrant,Systems Administration,,
+"Workflow Systems (Galaxy, Pegasus, etc.)",Other,,
+Git,Other,,
+Subversion,Other,,
+Mercurial,Other,,
+Computer Vision,Other,,
+Machine/Deep Learning,Other,,

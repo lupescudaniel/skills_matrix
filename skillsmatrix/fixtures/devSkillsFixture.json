@@ -1,0 +1,7867 @@
+[
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 272,
+  "fields": {
+    "developer": 1,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 273,
+  "fields": {
+    "developer": 1,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 274,
+  "fields": {
+    "developer": 1,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 275,
+  "fields": {
+    "developer": 1,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 276,
+  "fields": {
+    "developer": 1,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 277,
+  "fields": {
+    "developer": 1,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 278,
+  "fields": {
+    "developer": 1,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 279,
+  "fields": {
+    "developer": 1,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 280,
+  "fields": {
+    "developer": 1,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 281,
+  "fields": {
+    "developer": 1,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 282,
+  "fields": {
+    "developer": 1,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 283,
+  "fields": {
+    "developer": 1,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 284,
+  "fields": {
+    "developer": 1,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 285,
+  "fields": {
+    "developer": 1,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 286,
+  "fields": {
+    "developer": 1,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 287,
+  "fields": {
+    "developer": 1,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 288,
+  "fields": {
+    "developer": 1,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 289,
+  "fields": {
+    "developer": 1,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 290,
+  "fields": {
+    "developer": 1,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 291,
+  "fields": {
+    "developer": 1,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 292,
+  "fields": {
+    "developer": 1,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 293,
+  "fields": {
+    "developer": 1,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 294,
+  "fields": {
+    "developer": 1,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 295,
+  "fields": {
+    "developer": 1,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 296,
+  "fields": {
+    "developer": 1,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 297,
+  "fields": {
+    "developer": 1,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 298,
+  "fields": {
+    "developer": 1,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 299,
+  "fields": {
+    "developer": 1,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 300,
+  "fields": {
+    "developer": 1,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 301,
+  "fields": {
+    "developer": 1,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 302,
+  "fields": {
+    "developer": 1,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 303,
+  "fields": {
+    "developer": 1,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 304,
+  "fields": {
+    "developer": 1,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 305,
+  "fields": {
+    "developer": 1,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 306,
+  "fields": {
+    "developer": 1,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 307,
+  "fields": {
+    "developer": 1,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 308,
+  "fields": {
+    "developer": 1,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 309,
+  "fields": {
+    "developer": 1,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 310,
+  "fields": {
+    "developer": 1,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 311,
+  "fields": {
+    "developer": 1,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 312,
+  "fields": {
+    "developer": 1,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 313,
+  "fields": {
+    "developer": 1,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 314,
+  "fields": {
+    "developer": 1,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 315,
+  "fields": {
+    "developer": 1,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 316,
+  "fields": {
+    "developer": 1,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 317,
+  "fields": {
+    "developer": 1,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 318,
+  "fields": {
+    "developer": 1,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 319,
+  "fields": {
+    "developer": 1,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 320,
+  "fields": {
+    "developer": 1,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 321,
+  "fields": {
+    "developer": 1,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 322,
+  "fields": {
+    "developer": 1,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 323,
+  "fields": {
+    "developer": 1,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 324,
+  "fields": {
+    "developer": 1,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 325,
+  "fields": {
+    "developer": 1,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 326,
+  "fields": {
+    "developer": 1,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 327,
+  "fields": {
+    "developer": 2,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 328,
+  "fields": {
+    "developer": 2,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 329,
+  "fields": {
+    "developer": 2,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 330,
+  "fields": {
+    "developer": 2,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 331,
+  "fields": {
+    "developer": 2,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 332,
+  "fields": {
+    "developer": 2,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 333,
+  "fields": {
+    "developer": 2,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 334,
+  "fields": {
+    "developer": 2,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 335,
+  "fields": {
+    "developer": 2,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 336,
+  "fields": {
+    "developer": 2,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 337,
+  "fields": {
+    "developer": 2,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 338,
+  "fields": {
+    "developer": 2,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 339,
+  "fields": {
+    "developer": 2,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 340,
+  "fields": {
+    "developer": 2,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 341,
+  "fields": {
+    "developer": 2,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 342,
+  "fields": {
+    "developer": 2,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 343,
+  "fields": {
+    "developer": 2,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 344,
+  "fields": {
+    "developer": 2,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 345,
+  "fields": {
+    "developer": 2,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 346,
+  "fields": {
+    "developer": 2,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 347,
+  "fields": {
+    "developer": 2,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 348,
+  "fields": {
+    "developer": 2,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 349,
+  "fields": {
+    "developer": 2,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 350,
+  "fields": {
+    "developer": 2,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 351,
+  "fields": {
+    "developer": 2,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 352,
+  "fields": {
+    "developer": 2,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 353,
+  "fields": {
+    "developer": 2,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 354,
+  "fields": {
+    "developer": 2,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 355,
+  "fields": {
+    "developer": 2,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 356,
+  "fields": {
+    "developer": 2,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 357,
+  "fields": {
+    "developer": 2,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 358,
+  "fields": {
+    "developer": 2,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 359,
+  "fields": {
+    "developer": 2,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 360,
+  "fields": {
+    "developer": 2,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 361,
+  "fields": {
+    "developer": 2,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 362,
+  "fields": {
+    "developer": 2,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 363,
+  "fields": {
+    "developer": 2,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 364,
+  "fields": {
+    "developer": 2,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 365,
+  "fields": {
+    "developer": 2,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 366,
+  "fields": {
+    "developer": 2,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 367,
+  "fields": {
+    "developer": 2,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 368,
+  "fields": {
+    "developer": 2,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 369,
+  "fields": {
+    "developer": 2,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 370,
+  "fields": {
+    "developer": 2,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 371,
+  "fields": {
+    "developer": 2,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 372,
+  "fields": {
+    "developer": 2,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 373,
+  "fields": {
+    "developer": 2,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 374,
+  "fields": {
+    "developer": 2,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 375,
+  "fields": {
+    "developer": 2,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 376,
+  "fields": {
+    "developer": 2,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 377,
+  "fields": {
+    "developer": 2,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 378,
+  "fields": {
+    "developer": 2,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 379,
+  "fields": {
+    "developer": 2,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 380,
+  "fields": {
+    "developer": 2,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 381,
+  "fields": {
+    "developer": 2,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 382,
+  "fields": {
+    "developer": 3,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 383,
+  "fields": {
+    "developer": 3,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 384,
+  "fields": {
+    "developer": 3,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 385,
+  "fields": {
+    "developer": 3,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 386,
+  "fields": {
+    "developer": 3,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 387,
+  "fields": {
+    "developer": 3,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 388,
+  "fields": {
+    "developer": 3,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 389,
+  "fields": {
+    "developer": 3,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 390,
+  "fields": {
+    "developer": 3,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 391,
+  "fields": {
+    "developer": 3,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 392,
+  "fields": {
+    "developer": 3,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 393,
+  "fields": {
+    "developer": 3,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 394,
+  "fields": {
+    "developer": 3,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 395,
+  "fields": {
+    "developer": 3,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 396,
+  "fields": {
+    "developer": 3,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 397,
+  "fields": {
+    "developer": 3,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 398,
+  "fields": {
+    "developer": 3,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 399,
+  "fields": {
+    "developer": 3,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 400,
+  "fields": {
+    "developer": 3,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 401,
+  "fields": {
+    "developer": 3,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 402,
+  "fields": {
+    "developer": 3,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 403,
+  "fields": {
+    "developer": 3,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 404,
+  "fields": {
+    "developer": 3,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 405,
+  "fields": {
+    "developer": 3,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 406,
+  "fields": {
+    "developer": 3,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 407,
+  "fields": {
+    "developer": 3,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 408,
+  "fields": {
+    "developer": 3,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 409,
+  "fields": {
+    "developer": 3,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 410,
+  "fields": {
+    "developer": 3,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 411,
+  "fields": {
+    "developer": 3,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 412,
+  "fields": {
+    "developer": 3,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 413,
+  "fields": {
+    "developer": 3,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 414,
+  "fields": {
+    "developer": 3,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 415,
+  "fields": {
+    "developer": 3,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 416,
+  "fields": {
+    "developer": 3,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 417,
+  "fields": {
+    "developer": 3,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 418,
+  "fields": {
+    "developer": 3,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 419,
+  "fields": {
+    "developer": 3,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 420,
+  "fields": {
+    "developer": 3,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 421,
+  "fields": {
+    "developer": 3,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 422,
+  "fields": {
+    "developer": 3,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 423,
+  "fields": {
+    "developer": 3,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 424,
+  "fields": {
+    "developer": 3,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 425,
+  "fields": {
+    "developer": 3,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 426,
+  "fields": {
+    "developer": 3,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 427,
+  "fields": {
+    "developer": 3,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 428,
+  "fields": {
+    "developer": 3,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 429,
+  "fields": {
+    "developer": 3,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 430,
+  "fields": {
+    "developer": 3,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 431,
+  "fields": {
+    "developer": 3,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 432,
+  "fields": {
+    "developer": 3,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 433,
+  "fields": {
+    "developer": 3,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 434,
+  "fields": {
+    "developer": 3,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 435,
+  "fields": {
+    "developer": 3,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 436,
+  "fields": {
+    "developer": 3,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 437,
+  "fields": {
+    "developer": 4,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 438,
+  "fields": {
+    "developer": 4,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 439,
+  "fields": {
+    "developer": 4,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 440,
+  "fields": {
+    "developer": 4,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 441,
+  "fields": {
+    "developer": 4,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 442,
+  "fields": {
+    "developer": 4,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 443,
+  "fields": {
+    "developer": 4,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 444,
+  "fields": {
+    "developer": 4,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 445,
+  "fields": {
+    "developer": 4,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 446,
+  "fields": {
+    "developer": 4,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 447,
+  "fields": {
+    "developer": 4,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 448,
+  "fields": {
+    "developer": 4,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 449,
+  "fields": {
+    "developer": 4,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 450,
+  "fields": {
+    "developer": 4,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 451,
+  "fields": {
+    "developer": 4,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 452,
+  "fields": {
+    "developer": 4,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 453,
+  "fields": {
+    "developer": 4,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 454,
+  "fields": {
+    "developer": 4,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 455,
+  "fields": {
+    "developer": 4,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 456,
+  "fields": {
+    "developer": 4,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 457,
+  "fields": {
+    "developer": 4,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 458,
+  "fields": {
+    "developer": 4,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 459,
+  "fields": {
+    "developer": 4,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 460,
+  "fields": {
+    "developer": 4,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 461,
+  "fields": {
+    "developer": 4,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 462,
+  "fields": {
+    "developer": 4,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 463,
+  "fields": {
+    "developer": 4,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 464,
+  "fields": {
+    "developer": 4,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 465,
+  "fields": {
+    "developer": 4,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 466,
+  "fields": {
+    "developer": 4,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 467,
+  "fields": {
+    "developer": 4,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 468,
+  "fields": {
+    "developer": 4,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 469,
+  "fields": {
+    "developer": 4,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 470,
+  "fields": {
+    "developer": 4,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 471,
+  "fields": {
+    "developer": 4,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 472,
+  "fields": {
+    "developer": 4,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 473,
+  "fields": {
+    "developer": 4,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 474,
+  "fields": {
+    "developer": 4,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 475,
+  "fields": {
+    "developer": 4,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 476,
+  "fields": {
+    "developer": 4,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 477,
+  "fields": {
+    "developer": 4,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 478,
+  "fields": {
+    "developer": 4,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 479,
+  "fields": {
+    "developer": 4,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 480,
+  "fields": {
+    "developer": 4,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 481,
+  "fields": {
+    "developer": 4,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 482,
+  "fields": {
+    "developer": 4,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 483,
+  "fields": {
+    "developer": 4,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 484,
+  "fields": {
+    "developer": 4,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 485,
+  "fields": {
+    "developer": 4,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 486,
+  "fields": {
+    "developer": 4,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 487,
+  "fields": {
+    "developer": 4,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 488,
+  "fields": {
+    "developer": 4,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 489,
+  "fields": {
+    "developer": 4,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 490,
+  "fields": {
+    "developer": 4,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 491,
+  "fields": {
+    "developer": 4,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 492,
+  "fields": {
+    "developer": 5,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 493,
+  "fields": {
+    "developer": 5,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 494,
+  "fields": {
+    "developer": 5,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 495,
+  "fields": {
+    "developer": 5,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 496,
+  "fields": {
+    "developer": 5,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 497,
+  "fields": {
+    "developer": 5,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 498,
+  "fields": {
+    "developer": 5,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 499,
+  "fields": {
+    "developer": 5,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 500,
+  "fields": {
+    "developer": 5,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 501,
+  "fields": {
+    "developer": 5,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 502,
+  "fields": {
+    "developer": 5,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 503,
+  "fields": {
+    "developer": 5,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 504,
+  "fields": {
+    "developer": 5,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 505,
+  "fields": {
+    "developer": 5,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 506,
+  "fields": {
+    "developer": 5,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 507,
+  "fields": {
+    "developer": 5,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 508,
+  "fields": {
+    "developer": 5,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 509,
+  "fields": {
+    "developer": 5,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 510,
+  "fields": {
+    "developer": 5,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 511,
+  "fields": {
+    "developer": 5,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 512,
+  "fields": {
+    "developer": 5,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 513,
+  "fields": {
+    "developer": 5,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 514,
+  "fields": {
+    "developer": 5,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 515,
+  "fields": {
+    "developer": 5,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 516,
+  "fields": {
+    "developer": 5,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 517,
+  "fields": {
+    "developer": 5,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 518,
+  "fields": {
+    "developer": 5,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 519,
+  "fields": {
+    "developer": 5,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 520,
+  "fields": {
+    "developer": 5,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 521,
+  "fields": {
+    "developer": 5,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 522,
+  "fields": {
+    "developer": 5,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 523,
+  "fields": {
+    "developer": 5,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 524,
+  "fields": {
+    "developer": 5,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 525,
+  "fields": {
+    "developer": 5,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 526,
+  "fields": {
+    "developer": 5,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 527,
+  "fields": {
+    "developer": 5,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 528,
+  "fields": {
+    "developer": 5,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 529,
+  "fields": {
+    "developer": 5,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 530,
+  "fields": {
+    "developer": 5,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 531,
+  "fields": {
+    "developer": 5,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 532,
+  "fields": {
+    "developer": 5,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 533,
+  "fields": {
+    "developer": 5,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 534,
+  "fields": {
+    "developer": 5,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 535,
+  "fields": {
+    "developer": 5,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 536,
+  "fields": {
+    "developer": 5,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 537,
+  "fields": {
+    "developer": 5,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 538,
+  "fields": {
+    "developer": 5,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 539,
+  "fields": {
+    "developer": 5,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 540,
+  "fields": {
+    "developer": 5,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 541,
+  "fields": {
+    "developer": 5,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 542,
+  "fields": {
+    "developer": 5,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 543,
+  "fields": {
+    "developer": 5,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 544,
+  "fields": {
+    "developer": 5,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 545,
+  "fields": {
+    "developer": 5,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 546,
+  "fields": {
+    "developer": 5,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 547,
+  "fields": {
+    "developer": 7,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 548,
+  "fields": {
+    "developer": 7,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 549,
+  "fields": {
+    "developer": 7,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 550,
+  "fields": {
+    "developer": 7,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 551,
+  "fields": {
+    "developer": 7,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 552,
+  "fields": {
+    "developer": 7,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 553,
+  "fields": {
+    "developer": 7,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 554,
+  "fields": {
+    "developer": 7,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 555,
+  "fields": {
+    "developer": 7,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 556,
+  "fields": {
+    "developer": 7,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 557,
+  "fields": {
+    "developer": 7,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 558,
+  "fields": {
+    "developer": 7,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 559,
+  "fields": {
+    "developer": 7,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 560,
+  "fields": {
+    "developer": 7,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 561,
+  "fields": {
+    "developer": 7,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 562,
+  "fields": {
+    "developer": 7,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 563,
+  "fields": {
+    "developer": 7,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 564,
+  "fields": {
+    "developer": 7,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 565,
+  "fields": {
+    "developer": 7,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 566,
+  "fields": {
+    "developer": 7,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 567,
+  "fields": {
+    "developer": 7,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 568,
+  "fields": {
+    "developer": 7,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 569,
+  "fields": {
+    "developer": 7,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 570,
+  "fields": {
+    "developer": 7,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 571,
+  "fields": {
+    "developer": 7,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 572,
+  "fields": {
+    "developer": 7,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 573,
+  "fields": {
+    "developer": 7,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 574,
+  "fields": {
+    "developer": 7,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 575,
+  "fields": {
+    "developer": 7,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 576,
+  "fields": {
+    "developer": 7,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 577,
+  "fields": {
+    "developer": 7,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 578,
+  "fields": {
+    "developer": 7,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 579,
+  "fields": {
+    "developer": 7,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 580,
+  "fields": {
+    "developer": 7,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 581,
+  "fields": {
+    "developer": 7,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 582,
+  "fields": {
+    "developer": 7,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 583,
+  "fields": {
+    "developer": 7,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 584,
+  "fields": {
+    "developer": 7,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 585,
+  "fields": {
+    "developer": 7,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 586,
+  "fields": {
+    "developer": 7,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 587,
+  "fields": {
+    "developer": 7,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 588,
+  "fields": {
+    "developer": 7,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 589,
+  "fields": {
+    "developer": 7,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 590,
+  "fields": {
+    "developer": 7,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 591,
+  "fields": {
+    "developer": 7,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 592,
+  "fields": {
+    "developer": 7,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 593,
+  "fields": {
+    "developer": 7,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 594,
+  "fields": {
+    "developer": 7,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 595,
+  "fields": {
+    "developer": 7,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 596,
+  "fields": {
+    "developer": 7,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 597,
+  "fields": {
+    "developer": 7,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 598,
+  "fields": {
+    "developer": 7,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 599,
+  "fields": {
+    "developer": 7,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 600,
+  "fields": {
+    "developer": 7,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 601,
+  "fields": {
+    "developer": 7,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 602,
+  "fields": {
+    "developer": 10,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 603,
+  "fields": {
+    "developer": 10,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 604,
+  "fields": {
+    "developer": 10,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 605,
+  "fields": {
+    "developer": 10,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 606,
+  "fields": {
+    "developer": 10,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 607,
+  "fields": {
+    "developer": 10,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 608,
+  "fields": {
+    "developer": 10,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 609,
+  "fields": {
+    "developer": 10,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 610,
+  "fields": {
+    "developer": 10,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 611,
+  "fields": {
+    "developer": 10,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 612,
+  "fields": {
+    "developer": 10,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 613,
+  "fields": {
+    "developer": 10,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 614,
+  "fields": {
+    "developer": 10,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 615,
+  "fields": {
+    "developer": 10,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 616,
+  "fields": {
+    "developer": 10,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 617,
+  "fields": {
+    "developer": 10,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 618,
+  "fields": {
+    "developer": 10,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 619,
+  "fields": {
+    "developer": 10,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 620,
+  "fields": {
+    "developer": 10,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 621,
+  "fields": {
+    "developer": 10,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 622,
+  "fields": {
+    "developer": 10,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 623,
+  "fields": {
+    "developer": 10,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 624,
+  "fields": {
+    "developer": 10,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 625,
+  "fields": {
+    "developer": 10,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 626,
+  "fields": {
+    "developer": 10,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 627,
+  "fields": {
+    "developer": 10,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 628,
+  "fields": {
+    "developer": 10,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 629,
+  "fields": {
+    "developer": 10,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 630,
+  "fields": {
+    "developer": 10,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 631,
+  "fields": {
+    "developer": 10,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 632,
+  "fields": {
+    "developer": 10,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 633,
+  "fields": {
+    "developer": 10,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 634,
+  "fields": {
+    "developer": 10,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 635,
+  "fields": {
+    "developer": 10,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 636,
+  "fields": {
+    "developer": 10,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 637,
+  "fields": {
+    "developer": 10,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 638,
+  "fields": {
+    "developer": 10,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 639,
+  "fields": {
+    "developer": 10,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 640,
+  "fields": {
+    "developer": 10,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 641,
+  "fields": {
+    "developer": 10,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 642,
+  "fields": {
+    "developer": 10,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 643,
+  "fields": {
+    "developer": 10,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 644,
+  "fields": {
+    "developer": 10,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 645,
+  "fields": {
+    "developer": 10,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 646,
+  "fields": {
+    "developer": 10,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 647,
+  "fields": {
+    "developer": 10,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 648,
+  "fields": {
+    "developer": 10,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 649,
+  "fields": {
+    "developer": 10,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 650,
+  "fields": {
+    "developer": 10,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 651,
+  "fields": {
+    "developer": 10,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 652,
+  "fields": {
+    "developer": 10,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 653,
+  "fields": {
+    "developer": 10,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 654,
+  "fields": {
+    "developer": 10,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 655,
+  "fields": {
+    "developer": 10,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 656,
+  "fields": {
+    "developer": 10,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 657,
+  "fields": {
+    "developer": 11,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 658,
+  "fields": {
+    "developer": 11,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 659,
+  "fields": {
+    "developer": 11,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 660,
+  "fields": {
+    "developer": 11,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 661,
+  "fields": {
+    "developer": 11,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 662,
+  "fields": {
+    "developer": 11,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 663,
+  "fields": {
+    "developer": 11,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 664,
+  "fields": {
+    "developer": 11,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 665,
+  "fields": {
+    "developer": 11,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 666,
+  "fields": {
+    "developer": 11,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 667,
+  "fields": {
+    "developer": 11,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 668,
+  "fields": {
+    "developer": 11,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 669,
+  "fields": {
+    "developer": 11,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 670,
+  "fields": {
+    "developer": 11,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 671,
+  "fields": {
+    "developer": 11,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 672,
+  "fields": {
+    "developer": 11,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 673,
+  "fields": {
+    "developer": 11,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 674,
+  "fields": {
+    "developer": 11,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 675,
+  "fields": {
+    "developer": 11,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 676,
+  "fields": {
+    "developer": 11,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 677,
+  "fields": {
+    "developer": 11,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 678,
+  "fields": {
+    "developer": 11,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 679,
+  "fields": {
+    "developer": 11,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 680,
+  "fields": {
+    "developer": 11,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 681,
+  "fields": {
+    "developer": 11,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 682,
+  "fields": {
+    "developer": 11,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 683,
+  "fields": {
+    "developer": 11,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 684,
+  "fields": {
+    "developer": 11,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 685,
+  "fields": {
+    "developer": 11,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 686,
+  "fields": {
+    "developer": 11,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 687,
+  "fields": {
+    "developer": 11,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 688,
+  "fields": {
+    "developer": 11,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 689,
+  "fields": {
+    "developer": 11,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 690,
+  "fields": {
+    "developer": 11,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 691,
+  "fields": {
+    "developer": 11,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 692,
+  "fields": {
+    "developer": 11,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 693,
+  "fields": {
+    "developer": 11,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 694,
+  "fields": {
+    "developer": 11,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 695,
+  "fields": {
+    "developer": 11,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 696,
+  "fields": {
+    "developer": 11,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 697,
+  "fields": {
+    "developer": 11,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 698,
+  "fields": {
+    "developer": 11,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 699,
+  "fields": {
+    "developer": 11,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 700,
+  "fields": {
+    "developer": 11,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 701,
+  "fields": {
+    "developer": 11,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 702,
+  "fields": {
+    "developer": 11,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 703,
+  "fields": {
+    "developer": 11,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 704,
+  "fields": {
+    "developer": 11,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 705,
+  "fields": {
+    "developer": 11,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 706,
+  "fields": {
+    "developer": 11,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 707,
+  "fields": {
+    "developer": 11,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 708,
+  "fields": {
+    "developer": 11,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 709,
+  "fields": {
+    "developer": 11,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 710,
+  "fields": {
+    "developer": 11,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 711,
+  "fields": {
+    "developer": 11,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 712,
+  "fields": {
+    "developer": 12,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 713,
+  "fields": {
+    "developer": 12,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 714,
+  "fields": {
+    "developer": 12,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 715,
+  "fields": {
+    "developer": 12,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 716,
+  "fields": {
+    "developer": 12,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 717,
+  "fields": {
+    "developer": 12,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 718,
+  "fields": {
+    "developer": 12,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 719,
+  "fields": {
+    "developer": 12,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 720,
+  "fields": {
+    "developer": 12,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 721,
+  "fields": {
+    "developer": 12,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 722,
+  "fields": {
+    "developer": 12,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 723,
+  "fields": {
+    "developer": 12,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 724,
+  "fields": {
+    "developer": 12,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 725,
+  "fields": {
+    "developer": 12,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 726,
+  "fields": {
+    "developer": 12,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 727,
+  "fields": {
+    "developer": 12,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 728,
+  "fields": {
+    "developer": 12,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 729,
+  "fields": {
+    "developer": 12,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 730,
+  "fields": {
+    "developer": 12,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 731,
+  "fields": {
+    "developer": 12,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 732,
+  "fields": {
+    "developer": 12,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 733,
+  "fields": {
+    "developer": 12,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 734,
+  "fields": {
+    "developer": 12,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 735,
+  "fields": {
+    "developer": 12,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 736,
+  "fields": {
+    "developer": 12,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 737,
+  "fields": {
+    "developer": 12,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 738,
+  "fields": {
+    "developer": 12,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 739,
+  "fields": {
+    "developer": 12,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 740,
+  "fields": {
+    "developer": 12,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 741,
+  "fields": {
+    "developer": 12,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 742,
+  "fields": {
+    "developer": 12,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 743,
+  "fields": {
+    "developer": 12,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 744,
+  "fields": {
+    "developer": 12,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 745,
+  "fields": {
+    "developer": 12,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 746,
+  "fields": {
+    "developer": 12,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 747,
+  "fields": {
+    "developer": 12,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 748,
+  "fields": {
+    "developer": 12,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 749,
+  "fields": {
+    "developer": 12,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 750,
+  "fields": {
+    "developer": 12,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 751,
+  "fields": {
+    "developer": 12,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 752,
+  "fields": {
+    "developer": 12,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 753,
+  "fields": {
+    "developer": 12,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 754,
+  "fields": {
+    "developer": 12,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 755,
+  "fields": {
+    "developer": 12,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 756,
+  "fields": {
+    "developer": 12,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 757,
+  "fields": {
+    "developer": 12,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 758,
+  "fields": {
+    "developer": 12,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 759,
+  "fields": {
+    "developer": 12,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 760,
+  "fields": {
+    "developer": 12,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 761,
+  "fields": {
+    "developer": 12,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 762,
+  "fields": {
+    "developer": 12,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 763,
+  "fields": {
+    "developer": 12,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 764,
+  "fields": {
+    "developer": 12,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 765,
+  "fields": {
+    "developer": 12,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 766,
+  "fields": {
+    "developer": 12,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 767,
+  "fields": {
+    "developer": 13,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 768,
+  "fields": {
+    "developer": 13,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 769,
+  "fields": {
+    "developer": 13,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 770,
+  "fields": {
+    "developer": 13,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 771,
+  "fields": {
+    "developer": 13,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 772,
+  "fields": {
+    "developer": 13,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 773,
+  "fields": {
+    "developer": 13,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 774,
+  "fields": {
+    "developer": 13,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 775,
+  "fields": {
+    "developer": 13,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 776,
+  "fields": {
+    "developer": 13,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 777,
+  "fields": {
+    "developer": 13,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 778,
+  "fields": {
+    "developer": 13,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 779,
+  "fields": {
+    "developer": 13,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 780,
+  "fields": {
+    "developer": 13,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 781,
+  "fields": {
+    "developer": 13,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 782,
+  "fields": {
+    "developer": 13,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 783,
+  "fields": {
+    "developer": 13,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 784,
+  "fields": {
+    "developer": 13,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 785,
+  "fields": {
+    "developer": 13,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 786,
+  "fields": {
+    "developer": 13,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 787,
+  "fields": {
+    "developer": 13,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 788,
+  "fields": {
+    "developer": 13,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 789,
+  "fields": {
+    "developer": 13,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 790,
+  "fields": {
+    "developer": 13,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 791,
+  "fields": {
+    "developer": 13,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 792,
+  "fields": {
+    "developer": 13,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 793,
+  "fields": {
+    "developer": 13,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 794,
+  "fields": {
+    "developer": 13,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 795,
+  "fields": {
+    "developer": 13,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 796,
+  "fields": {
+    "developer": 13,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 797,
+  "fields": {
+    "developer": 13,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 798,
+  "fields": {
+    "developer": 13,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 799,
+  "fields": {
+    "developer": 13,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 800,
+  "fields": {
+    "developer": 13,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 801,
+  "fields": {
+    "developer": 13,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 802,
+  "fields": {
+    "developer": 13,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 803,
+  "fields": {
+    "developer": 13,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 804,
+  "fields": {
+    "developer": 13,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 805,
+  "fields": {
+    "developer": 13,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 806,
+  "fields": {
+    "developer": 13,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 807,
+  "fields": {
+    "developer": 13,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 808,
+  "fields": {
+    "developer": 13,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 809,
+  "fields": {
+    "developer": 13,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 810,
+  "fields": {
+    "developer": 13,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 811,
+  "fields": {
+    "developer": 13,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 812,
+  "fields": {
+    "developer": 13,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 813,
+  "fields": {
+    "developer": 13,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 814,
+  "fields": {
+    "developer": 13,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 815,
+  "fields": {
+    "developer": 13,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 816,
+  "fields": {
+    "developer": 13,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 817,
+  "fields": {
+    "developer": 13,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 818,
+  "fields": {
+    "developer": 13,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 819,
+  "fields": {
+    "developer": 13,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 820,
+  "fields": {
+    "developer": 13,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 821,
+  "fields": {
+    "developer": 13,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 822,
+  "fields": {
+    "developer": 14,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 823,
+  "fields": {
+    "developer": 14,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 824,
+  "fields": {
+    "developer": 14,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 825,
+  "fields": {
+    "developer": 14,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 826,
+  "fields": {
+    "developer": 14,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 827,
+  "fields": {
+    "developer": 14,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 828,
+  "fields": {
+    "developer": 14,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 829,
+  "fields": {
+    "developer": 14,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 830,
+  "fields": {
+    "developer": 14,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 831,
+  "fields": {
+    "developer": 14,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 832,
+  "fields": {
+    "developer": 14,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 833,
+  "fields": {
+    "developer": 14,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 834,
+  "fields": {
+    "developer": 14,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 835,
+  "fields": {
+    "developer": 14,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 836,
+  "fields": {
+    "developer": 14,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 837,
+  "fields": {
+    "developer": 14,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 838,
+  "fields": {
+    "developer": 14,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 839,
+  "fields": {
+    "developer": 14,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 840,
+  "fields": {
+    "developer": 14,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 841,
+  "fields": {
+    "developer": 14,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 842,
+  "fields": {
+    "developer": 14,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 843,
+  "fields": {
+    "developer": 14,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 844,
+  "fields": {
+    "developer": 14,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 845,
+  "fields": {
+    "developer": 14,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 846,
+  "fields": {
+    "developer": 14,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 847,
+  "fields": {
+    "developer": 14,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 848,
+  "fields": {
+    "developer": 14,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 849,
+  "fields": {
+    "developer": 14,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 850,
+  "fields": {
+    "developer": 14,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 851,
+  "fields": {
+    "developer": 14,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 852,
+  "fields": {
+    "developer": 14,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 853,
+  "fields": {
+    "developer": 14,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 854,
+  "fields": {
+    "developer": 14,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 855,
+  "fields": {
+    "developer": 14,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 856,
+  "fields": {
+    "developer": 14,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 857,
+  "fields": {
+    "developer": 14,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 858,
+  "fields": {
+    "developer": 14,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 859,
+  "fields": {
+    "developer": 14,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 860,
+  "fields": {
+    "developer": 14,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 861,
+  "fields": {
+    "developer": 14,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 862,
+  "fields": {
+    "developer": 14,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 863,
+  "fields": {
+    "developer": 14,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 864,
+  "fields": {
+    "developer": 14,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 865,
+  "fields": {
+    "developer": 14,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 866,
+  "fields": {
+    "developer": 14,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 867,
+  "fields": {
+    "developer": 14,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 868,
+  "fields": {
+    "developer": 14,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 869,
+  "fields": {
+    "developer": 14,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 870,
+  "fields": {
+    "developer": 14,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 871,
+  "fields": {
+    "developer": 14,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 872,
+  "fields": {
+    "developer": 14,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 873,
+  "fields": {
+    "developer": 14,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 874,
+  "fields": {
+    "developer": 14,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 875,
+  "fields": {
+    "developer": 14,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 876,
+  "fields": {
+    "developer": 14,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 877,
+  "fields": {
+    "developer": 15,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 878,
+  "fields": {
+    "developer": 15,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 879,
+  "fields": {
+    "developer": 15,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 880,
+  "fields": {
+    "developer": 15,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 881,
+  "fields": {
+    "developer": 15,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 882,
+  "fields": {
+    "developer": 15,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 883,
+  "fields": {
+    "developer": 15,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 884,
+  "fields": {
+    "developer": 15,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 885,
+  "fields": {
+    "developer": 15,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 886,
+  "fields": {
+    "developer": 15,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 887,
+  "fields": {
+    "developer": 15,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 888,
+  "fields": {
+    "developer": 15,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 889,
+  "fields": {
+    "developer": 15,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 890,
+  "fields": {
+    "developer": 15,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 891,
+  "fields": {
+    "developer": 15,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 892,
+  "fields": {
+    "developer": 15,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 893,
+  "fields": {
+    "developer": 15,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 894,
+  "fields": {
+    "developer": 15,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 895,
+  "fields": {
+    "developer": 15,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 896,
+  "fields": {
+    "developer": 15,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 897,
+  "fields": {
+    "developer": 15,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 898,
+  "fields": {
+    "developer": 15,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 899,
+  "fields": {
+    "developer": 15,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 900,
+  "fields": {
+    "developer": 15,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 901,
+  "fields": {
+    "developer": 15,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 902,
+  "fields": {
+    "developer": 15,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 903,
+  "fields": {
+    "developer": 15,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 904,
+  "fields": {
+    "developer": 15,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 905,
+  "fields": {
+    "developer": 15,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 906,
+  "fields": {
+    "developer": 15,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 907,
+  "fields": {
+    "developer": 15,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 908,
+  "fields": {
+    "developer": 15,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 909,
+  "fields": {
+    "developer": 15,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 910,
+  "fields": {
+    "developer": 15,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 911,
+  "fields": {
+    "developer": 15,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 912,
+  "fields": {
+    "developer": 15,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 913,
+  "fields": {
+    "developer": 15,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 914,
+  "fields": {
+    "developer": 15,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 915,
+  "fields": {
+    "developer": 15,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 916,
+  "fields": {
+    "developer": 15,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 917,
+  "fields": {
+    "developer": 15,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 918,
+  "fields": {
+    "developer": 15,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 919,
+  "fields": {
+    "developer": 15,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 920,
+  "fields": {
+    "developer": 15,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 921,
+  "fields": {
+    "developer": 15,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 922,
+  "fields": {
+    "developer": 15,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 923,
+  "fields": {
+    "developer": 15,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 924,
+  "fields": {
+    "developer": 15,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 925,
+  "fields": {
+    "developer": 15,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 926,
+  "fields": {
+    "developer": 15,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 927,
+  "fields": {
+    "developer": 15,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 928,
+  "fields": {
+    "developer": 15,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 929,
+  "fields": {
+    "developer": 15,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 930,
+  "fields": {
+    "developer": 15,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 931,
+  "fields": {
+    "developer": 15,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 932,
+  "fields": {
+    "developer": 16,
+    "skill": 23,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 933,
+  "fields": {
+    "developer": 16,
+    "skill": 24,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 934,
+  "fields": {
+    "developer": 16,
+    "skill": 25,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 935,
+  "fields": {
+    "developer": 16,
+    "skill": 26,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 936,
+  "fields": {
+    "developer": 16,
+    "skill": 27,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 937,
+  "fields": {
+    "developer": 16,
+    "skill": 28,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 938,
+  "fields": {
+    "developer": 16,
+    "skill": 29,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 939,
+  "fields": {
+    "developer": 16,
+    "skill": 30,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 940,
+  "fields": {
+    "developer": 16,
+    "skill": 31,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 941,
+  "fields": {
+    "developer": 16,
+    "skill": 32,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 942,
+  "fields": {
+    "developer": 16,
+    "skill": 33,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 943,
+  "fields": {
+    "developer": 16,
+    "skill": 34,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 944,
+  "fields": {
+    "developer": 16,
+    "skill": 35,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 945,
+  "fields": {
+    "developer": 16,
+    "skill": 36,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 946,
+  "fields": {
+    "developer": 16,
+    "skill": 37,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 947,
+  "fields": {
+    "developer": 16,
+    "skill": 38,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 948,
+  "fields": {
+    "developer": 16,
+    "skill": 39,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 949,
+  "fields": {
+    "developer": 16,
+    "skill": 40,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 950,
+  "fields": {
+    "developer": 16,
+    "skill": 41,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 951,
+  "fields": {
+    "developer": 16,
+    "skill": 42,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 952,
+  "fields": {
+    "developer": 16,
+    "skill": 43,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 953,
+  "fields": {
+    "developer": 16,
+    "skill": 44,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 954,
+  "fields": {
+    "developer": 16,
+    "skill": 45,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 955,
+  "fields": {
+    "developer": 16,
+    "skill": 46,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 956,
+  "fields": {
+    "developer": 16,
+    "skill": 47,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 957,
+  "fields": {
+    "developer": 16,
+    "skill": 48,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 958,
+  "fields": {
+    "developer": 16,
+    "skill": 49,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 959,
+  "fields": {
+    "developer": 16,
+    "skill": 50,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 960,
+  "fields": {
+    "developer": 16,
+    "skill": 51,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 961,
+  "fields": {
+    "developer": 16,
+    "skill": 52,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 962,
+  "fields": {
+    "developer": 16,
+    "skill": 53,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 963,
+  "fields": {
+    "developer": 16,
+    "skill": 54,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 964,
+  "fields": {
+    "developer": 16,
+    "skill": 55,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 965,
+  "fields": {
+    "developer": 16,
+    "skill": 56,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 966,
+  "fields": {
+    "developer": 16,
+    "skill": 57,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 967,
+  "fields": {
+    "developer": 16,
+    "skill": 58,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 968,
+  "fields": {
+    "developer": 16,
+    "skill": 59,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 969,
+  "fields": {
+    "developer": 16,
+    "skill": 60,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 970,
+  "fields": {
+    "developer": 16,
+    "skill": 61,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 971,
+  "fields": {
+    "developer": 16,
+    "skill": 62,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 972,
+  "fields": {
+    "developer": 16,
+    "skill": 63,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 973,
+  "fields": {
+    "developer": 16,
+    "skill": 64,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 974,
+  "fields": {
+    "developer": 16,
+    "skill": 65,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 975,
+  "fields": {
+    "developer": 16,
+    "skill": 66,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 976,
+  "fields": {
+    "developer": 16,
+    "skill": 67,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 977,
+  "fields": {
+    "developer": 16,
+    "skill": 68,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 978,
+  "fields": {
+    "developer": 16,
+    "skill": 69,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 979,
+  "fields": {
+    "developer": 16,
+    "skill": 70,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 980,
+  "fields": {
+    "developer": 16,
+    "skill": 71,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 981,
+  "fields": {
+    "developer": 16,
+    "skill": 72,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 982,
+  "fields": {
+    "developer": 16,
+    "skill": 73,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 983,
+  "fields": {
+    "developer": 16,
+    "skill": 74,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 984,
+  "fields": {
+    "developer": 16,
+    "skill": 75,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 985,
+  "fields": {
+    "developer": 16,
+    "skill": 76,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+},
+{
+  "model": "skillsmatrix.developerskill",
+  "pk": 986,
+  "fields": {
+    "developer": 16,
+    "skill": 77,
+    "proficiency": null,
+    "years_of_experience": null,
+    "has_skill": false
+  }
+}
+]

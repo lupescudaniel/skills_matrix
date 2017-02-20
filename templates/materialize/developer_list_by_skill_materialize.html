@@ -1,6 +1,14 @@
 {% extends 'materialize/base_materialize.html' %}
 {% load staticfiles %}
 {% block content %}
+     <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+            <div class="col s12 container">
+                <a href="{% url 'skills_list' %}" class=" breadcrumb my-breadcrumb">Skills List</a>
+                <a href="{% url 'developer_list_by_skill' skill_object.id %}" class="breadcrumb my-breadcrumb">{{ skill_name }}</a>
+            </div>
+        </div>
+    </nav>
  <div class="container">
         <div class="row" style="padding-top:20px">
             <div class="col s12 m6">

@@ -1,0 +1,607 @@
+[
+{
+  "model": "skillsmatrix.skill",
+  "pk": 23,
+  "fields": {
+    "name": "Python",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://www.python.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 24,
+  "fields": {
+    "name": "C",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 25,
+  "fields": {
+    "name": "C++",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "http://www.cplusplus.com/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 26,
+  "fields": {
+    "name": "Javascript",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://www.javascript.com/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 27,
+  "fields": {
+    "name": "Go",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://golang.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 28,
+  "fields": {
+    "name": "Java",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://www.oracle.com/java/index.html"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 29,
+  "fields": {
+    "name": "HTML",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 30,
+  "fields": {
+    "name": "CSS",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 31,
+  "fields": {
+    "name": ".NET",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://www.microsoft.com/net"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 32,
+  "fields": {
+    "name": "Perl",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://www.perl.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 33,
+  "fields": {
+    "name": "PHP",
+    "difficulty": null,
+    "family": "Language",
+    "description": "",
+    "skill_url": "https://secure.php.net/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 34,
+  "fields": {
+    "name": "WebGL",
+    "difficulty": null,
+    "family": "Frontend Web Framework",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 35,
+  "fields": {
+    "name": "Angular.js",
+    "difficulty": null,
+    "family": "Frontend Web Framework",
+    "description": "",
+    "skill_url": "https://angularjs.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 36,
+  "fields": {
+    "name": "Ember.js",
+    "difficulty": null,
+    "family": "Frontend Web Framework",
+    "description": "",
+    "skill_url": "http://emberjs.com/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 37,
+  "fields": {
+    "name": "Bootstrap",
+    "difficulty": null,
+    "family": "Frontend Web Framework",
+    "description": "",
+    "skill_url": "http://getbootstrap.com/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 38,
+  "fields": {
+    "name": "jQuery",
+    "difficulty": null,
+    "family": "Frontend Web Framework",
+    "description": "",
+    "skill_url": "https://jquery.com/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 39,
+  "fields": {
+    "name": "MaterializeCSS",
+    "difficulty": null,
+    "family": "Frontend Web Framework",
+    "description": "",
+    "skill_url": "materializecss.com"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 40,
+  "fields": {
+    "name": "Backbone.js",
+    "difficulty": null,
+    "family": "Frontend Web Framework",
+    "description": "",
+    "skill_url": "http://backbonejs.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 41,
+  "fields": {
+    "name": "Knockout.js",
+    "difficulty": null,
+    "family": "Frontend Web Framework",
+    "description": "",
+    "skill_url": "http://knockoutjs.com/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 42,
+  "fields": {
+    "name": "Drupal",
+    "difficulty": null,
+    "family": "Backend Web Framework",
+    "description": "",
+    "skill_url": "https://www.drupal.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 43,
+  "fields": {
+    "name": "Node.js",
+    "difficulty": null,
+    "family": "Backend Web Framework",
+    "description": "",
+    "skill_url": "https://nodejs.org/en/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 44,
+  "fields": {
+    "name": "Express",
+    "difficulty": null,
+    "family": "Backend Web Framework",
+    "description": "",
+    "skill_url": "http://expressjs.com/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 45,
+  "fields": {
+    "name": "Django",
+    "difficulty": null,
+    "family": "Backend Web Framework",
+    "description": "",
+    "skill_url": "https://www.djangoproject.com/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 46,
+  "fields": {
+    "name": "Django Rest Framework",
+    "difficulty": null,
+    "family": "Backend Web Framework",
+    "description": "",
+    "skill_url": "http://www.django-rest-framework.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 47,
+  "fields": {
+    "name": "Flask",
+    "difficulty": null,
+    "family": "Backend Web Framework",
+    "description": "",
+    "skill_url": "http://flask.pocoo.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 48,
+  "fields": {
+    "name": "Tornado",
+    "difficulty": null,
+    "family": "Backend Web Framework",
+    "description": "",
+    "skill_url": "http://www.tornadoweb.org/en/stable/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 49,
+  "fields": {
+    "name": "Joomla",
+    "difficulty": null,
+    "family": "Backend Web Framework",
+    "description": "",
+    "skill_url": "https://www.joomla.org/"
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 50,
+  "fields": {
+    "name": "AJAX",
+    "difficulty": null,
+    "family": "Concept",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 51,
+  "fields": {
+    "name": "Single Page Applications",
+    "difficulty": null,
+    "family": "Concept",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 52,
+  "fields": {
+    "name": "Model View Controller",
+    "difficulty": null,
+    "family": "Concept",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 53,
+  "fields": {
+    "name": "NoSQL",
+    "difficulty": null,
+    "family": "Concept",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 54,
+  "fields": {
+    "name": "Federated Authentication",
+    "difficulty": null,
+    "family": "Concept",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 55,
+  "fields": {
+    "name": "SQLite",
+    "difficulty": null,
+    "family": "Datastore",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 56,
+  "fields": {
+    "name": "PostgreSQL",
+    "difficulty": null,
+    "family": "Datastore",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 57,
+  "fields": {
+    "name": "MySQL",
+    "difficulty": null,
+    "family": "Datastore",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 58,
+  "fields": {
+    "name": "MongoDB",
+    "difficulty": null,
+    "family": "Datastore",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 59,
+  "fields": {
+    "name": "ElasticSearch",
+    "difficulty": null,
+    "family": "Datastore",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 60,
+  "fields": {
+    "name": "Apache SOLR",
+    "difficulty": null,
+    "family": "Datastore",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 61,
+  "fields": {
+    "name": "Varnish",
+    "difficulty": null,
+    "family": "Datastore",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 62,
+  "fields": {
+    "name": "Redis",
+    "difficulty": null,
+    "family": "Datastore",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 63,
+  "fields": {
+    "name": "PhoneGap",
+    "difficulty": null,
+    "family": "Mobile Development",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 64,
+  "fields": {
+    "name": "Swift",
+    "difficulty": null,
+    "family": "Mobile Development",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 65,
+  "fields": {
+    "name": "Android Native ",
+    "difficulty": null,
+    "family": "Mobile Development",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 66,
+  "fields": {
+    "name": "Redhat",
+    "difficulty": null,
+    "family": "Systems Administration",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 67,
+  "fields": {
+    "name": "Ubuntu",
+    "difficulty": null,
+    "family": "Systems Administration",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 68,
+  "fields": {
+    "name": "Provisioners (Salt, Puppet, etc.)",
+    "difficulty": null,
+    "family": "Systems Administration",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 69,
+  "fields": {
+    "name": "Apache",
+    "difficulty": null,
+    "family": "Systems Administration",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 70,
+  "fields": {
+    "name": "Nginx",
+    "difficulty": null,
+    "family": "Systems Administration",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 71,
+  "fields": {
+    "name": "Vagrant",
+    "difficulty": null,
+    "family": "Systems Administration",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 72,
+  "fields": {
+    "name": "Workflow Systems (Galaxy, Pegasus, etc.)",
+    "difficulty": null,
+    "family": "Other",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 73,
+  "fields": {
+    "name": "Git",
+    "difficulty": null,
+    "family": "Other",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 74,
+  "fields": {
+    "name": "Subversion",
+    "difficulty": null,
+    "family": "Other",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 75,
+  "fields": {
+    "name": "Mercurial",
+    "difficulty": null,
+    "family": "Other",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 76,
+  "fields": {
+    "name": "Computer Vision",
+    "difficulty": null,
+    "family": "Other",
+    "description": "",
+    "skill_url": ""
+  }
+},
+{
+  "model": "skillsmatrix.skill",
+  "pk": 77,
+  "fields": {
+    "name": "Machine/Deep Learning",
+    "difficulty": null,
+    "family": "Other",
+    "description": "",
+    "skill_url": ""
+  }
+}
+]

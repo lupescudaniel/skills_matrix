@@ -57,12 +57,13 @@ class Matrix(TemplateView):
                     devskill = DeveloperSkill.objects.get(developer=dev['id'], skill=skill['id'])
 
                     if devskill.has_skill:
+                        if devskill.proficiency == None:
+                            devskill.proficiency = 0
                         dskill = [dev_index, skill_index, devskill.proficiency]
 
                     else:
                         dskill = [dev_index, skill_index, 0]
                     devskills.append(dskill)
-                    print(devskills)
                 except:
                     pass
 
@@ -85,9 +86,6 @@ def FilterMatrix(request):
     dev_ids = request.GET.getlist('devs[]') # IDs of the selected developers
     skill_names = request.GET.getlist('skills[]')# Names of the selected skills
 
-    print(dev_ids)
-    print(skill_names)
-
     dev_list = Developer.objects.filter(id__in=dev_ids).values('id', 'user__first_name', 'user__last_name')
     skill_list = Skill.objects.filter(name__in=skill_names).values('id', 'name')
 
@@ -98,17 +96,14 @@ def FilterMatrix(request):
         dev_names.append(d)
     dev_names.sort()
 
-    print dev_names
-
     # Get a list of the names of the skills and sort alphabetically
     skill_names = []
     for s in skill_list:
         skill_names.append(str(s['name']))
     skill_names.sort()
 
-    print skill_names
-
-    # TODO COMMENT
+    # Get list of each developer skill -
+    # must be format [index of dev in devs, index of skill in skills, proficiency]
     devskills = []
 
     for dev in dev_list:
@@ -123,13 +118,17 @@ def FilterMatrix(request):
 
             try:
                 devskill = DeveloperSkill.objects.get(developer=dev['id'], skill=skill['id'])
-                dskill = [dev_index, skill_index, devskill.proficiency]
-                devskills.append(dskill)
-            except ObjectDoesNotExist:
-                no_skill_item = [dev_index, skill_index, 0]
-                devskills.append(no_skill_item)
+                if devskill.has_skill:
+                    dskill = [dev_index, skill_index, devskill.proficiency]
 
-    devskills.sort()
+                else:
+                    dskill = [dev_index, skill_index, 0]
+                devskills.append(dskill)
+
+            except:
+                pass
+
+        devskills.sort()
 
     data = {
         "dev_names": dev_names,

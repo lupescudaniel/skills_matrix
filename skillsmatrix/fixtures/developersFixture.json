@@ -1,0 +1,145 @@
+[
+{
+  "model": "skillsmatrix.developer",
+  "pk": 1,
+  "fields": {
+    "user": 14,
+    "manager": "Caleb",
+    "title": "Lead Developer",
+    "phone": "phone",
+    "is_manager": true
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 2,
+  "fields": {
+    "user": 12,
+    "manager": "Rob",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 3,
+  "fields": {
+    "user": 8,
+    "manager": "David",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "manager": "David",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 5,
+  "fields": {
+    "user": 7,
+    "manager": "Jarek",
+    "title": "Assistant Director Software Development",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 7,
+  "fields": {
+    "user": 2,
+    "manager": "Caleb",
+    "title": "Lead Developer",
+    "phone": "phone",
+    "is_manager": true
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 10,
+  "fields": {
+    "user": 5,
+    "manager": "Alex",
+    "title": "Associate Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 11,
+  "fields": {
+    "user": 6,
+    "manager": "Caleb",
+    "title": "Lead Developer",
+    "phone": "phone",
+    "is_manager": true
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 12,
+  "fields": {
+    "user": 4,
+    "manager": "Dave",
+    "title": "Senior Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 13,
+  "fields": {
+    "user": 11,
+    "manager": "Rob",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 14,
+  "fields": {
+    "user": 9,
+    "manager": "David",
+    "title": "Associate Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 15,
+  "fields": {
+    "user": 16,
+    "manager": "Alex",
+    "title": "Research Programmer",
+    "phone": "phone",
+    "is_manager": false
+  }
+},
+{
+  "model": "skillsmatrix.developer",
+  "pk": 16,
+  "fields": {
+    "user": 18,
+    "manager": "Rob",
+    "title": "Civil/Environmental Engineering Research Assistant Professor",
+    "phone": "574-631-4009",
+    "is_manager": false
+  }
+}
+]
