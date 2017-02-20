@@ -94,7 +94,7 @@
                         tooltip: {
                             formatter: function () {
                                 return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> has proficiency of <br><b>' +
-                                        this.point.value + '</b> in <br><b>' + this.series.yAxis.categories[this.point.y]
+                                        getProficiencyString(this.point.value) + '</b> in <br><b>' + this.series.yAxis.categories[this.point.y]
                                         + '</b>';
                             }
                         },
