@@ -31,7 +31,7 @@ class DeveloperDetail(DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(DeveloperDetail, self).get_context_data(**kwargs)
-        devskill_list = DeveloperSkill.objects.filter(developer=self.object).order_by('-years_of_experience')
+        devskill_list = DeveloperSkill.objects.filter(developer=self.object, has_skill=True).order_by('-years_of_experience')
         context['skills'] = devskill_list
         context['isCurrentUser'] = False
         return context
@@ -51,7 +51,7 @@ class DeveloperDetailMe(LoginRequiredMixin, UserPassesTestMixin, DeveloperDetail
 
     def get_context_data(self, **kwargs):
         context = super(DeveloperDetail, self).get_context_data()
-        devskill_list = DeveloperSkill.objects.filter(developer=self.object).order_by('-years_of_experience')
+        devskill_list = DeveloperSkill.objects.filter(developer=self.object, has_skill=True).order_by('-years_of_experience')
         context['skills'] = devskill_list
         context['isCurrentUser'] = True
         return context
