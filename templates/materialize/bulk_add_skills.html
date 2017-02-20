@@ -25,7 +25,7 @@
                                                 <input type="checkbox" class="my-orange-checkbox has-skill" id="{{ devskill.skill.id }}-hasSkill"
                                                        {% if devskill.has_skill %}checked="checked"{% endif %}>
                                                 <label for="{{ devskill.skill.id }}-hasSkill" class="has-skill-label blue-text" id="{{ devskill.skill.name }}">
-                                                    {% if devskill.skill.skill_url %}<a href="{{ devskill.skill.skill_url }}">{% endif %}{{ devskill.skill.name }}</a>
+                                                    {% if devskill.skill.skill_url %}<a href="{{ devskill.skill.skill_url }}" target="_blank">{% endif %}{{ devskill.skill.name }}</a>
                                                 </label>
                                             </div>
                                             <div class="col s4">
