@@ -104,7 +104,10 @@
                             data: dev_skills,
                             dataLabels: {
                                 enabled: true,
-                                color: '#000000'
+                                color: '#000000',
+                                formatter: function () {
+                                    return getMatrixProficiencyString(this.point.value);
+                                }
                             },
                             navigation: {
                                 buttonOptions: {
