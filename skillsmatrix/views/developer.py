@@ -71,14 +71,14 @@ class DeveloperUpdate(UpdateView):
 
 
 # ListView that inherits from DeveloperList but uses a url parameter to only show the list of developers that have
-# the manager passed in on the url
+# the skill passed in on the url
 class DeveloperListBySkill(ListView):
     model = DeveloperSkill
     template_name = 'materialize/developer_list_by_skill_materialize.html'
 
     def get_queryset(self):
         q = super(DeveloperListBySkill, self).get_queryset()
-        return q.filter(skill_id=self.kwargs['skill_id'])
+        return q.filter(skill_id=self.kwargs['skill_id'], has_skill=True)
 
     def get_context_data(self, **kwargs):
         context = super(DeveloperListBySkill, self).get_context_data()

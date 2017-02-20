@@ -87,7 +87,7 @@ class BulkAddSkills(TemplateView):
         for s in skill_families:
             skill_families_list.append(str(s[0]))
         skill_family_unique = list(set(skill_families_list))
-
+        skill_family_unique.sort()
         all_dev_skills = DeveloperSkill.objects.filter(developer__user=self.request.user)
 
         context['my_skills'] = all_dev_skills
