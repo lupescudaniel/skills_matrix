@@ -1,6 +1,15 @@
 {% extends 'materialize/base_materialize.html' %}
 
 {% block content %}
+    <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+            <div class="col s12 container">
+                <a href="{% url 'my_developer_details' %}" class=" breadcrumb my-breadcrumb">
+                    <i class="material-icons orange-text">keyboard_arrow_left</i>
+                    Back to My Developer Details</a>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <ul class="collapsible" data-collapsible="expandable">
             {% for family in skill_family_list %}
@@ -94,7 +103,10 @@
                                 skills_list: JSON.stringify(skills),
                                 csrfmiddlewaretoken: '{{ csrf_token }}'
                                 },
-                            success: function(data) { console.log(data) }
+                            success: function(json) {
+                                console.log("Success");
+                                alert("Changes have been saved!");
+                            }
                         }
                     );
                 } else {

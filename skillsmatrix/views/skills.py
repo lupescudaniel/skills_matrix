@@ -100,6 +100,7 @@ class BulkAddSkills(TemplateView):
 @login_required
 @require_http_methods(["POST"])
 def bulk_update_skill_view(request):
+    response_data = {}
     for skill in json.loads(request.POST.get('skills_list', [])):
         devskill = DeveloperSkill.objects.get(id=skill[u'id'], developer__user=request.user)
         devskill.has_skill = skill[u'has_skill']
@@ -110,4 +111,5 @@ def bulk_update_skill_view(request):
             devskill.proficiency = skill[u'proficiency']
             devskill.years_of_experience = skill[u'years_of_experience']
         devskill.save()
-    return HttpResponse('{response: "success"}', content_type='application/json')
+    response_data['success'] = True
+    return HttpResponse(json.dumps(response_data), content_type='application/json')
