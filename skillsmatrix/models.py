@@ -59,45 +59,4 @@ class DeveloperSkill(models.Model):
             proficiency_string = "High"
         return proficiency_string
 
-    # def validate_unique(self, exclude=None):
-    #     '''
-    #     Check if the developer has already added this skill.
-    #     '''
-    #     qs = DeveloperSkill.objects.filter(developer=self.developer, skill=self.skill)
-    #     if qs:
-    #         raise ValidationError('You already added this skill.')
-    #
-    # def save(self, *args, **kwargs):
-    #     self.validate_unique()
-    #
-    #     super(DeveloperSkill, self).save(*args, **kwargs)
-
-
-# Project model
-class Project(models.Model):
-    name = models.CharField(max_length=512)
-    project_lead = models.ForeignKey('Developer', on_delete=models.CASCADE)
-    pi = models.CharField(max_length=512)
-
-    def __str__(self):
-        return '%s' % self.name
-
-
-# ProjectSkill model
-class ProjectSkill(models.Model):
-    project = models.ForeignKey('Project', on_delete=models.CASCADE)
-    skill = models.ForeignKey('Skill', on_delete=models.CASCADE)
-
-    def __str__(self):
-        return '%s' % self.skill.name
-
-
-# ProjectDeveloper model
-class ProjectDeveloper(models.Model):
-    project = models.ForeignKey('Project', on_delete=models.CASCADE)
-    developer = models.ForeignKey('Developer', on_delete=models.CASCADE)
-
-    def __str__(self):
-        return '%s %s' % self.developer.user.first_name
-
 
