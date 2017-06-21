@@ -18,7 +18,7 @@
 
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
-    <li><a href="{% url "my_developer_details" %}">My Page</a></li>
+    <li><a class="blue-text" href="{% url "my_developer_details" %}">My Page</a></li>
 </ul>
 
 <!-- Nav Bar -->
@@ -36,11 +36,18 @@
                 <a href="{% url 'skills_list' %}">Skills</a>
             </li>
             <li>
+                <a href="{% url 'create_extra_credit' %}">Extra Credit
+{#                    {% if extracredit_tokens and is_developer %}#}
+{#                        <span class="badge orange white-text">{{ extracredit_tokens }}</span>#}
+{#                    {% endif %}#}
+                </a>
+            </li>
+            <li>
                 <a href="{% url 'matrix' %}">Matrix</a>
             </li>
             <!-- Dropdown Trigger -->
             <li>
-                <a class="dropdown-button" href="#" data-activates="dropdown1">
+                <a class="dropdown-button" href="#" data-activates="dropdown1" data-beloworigin="true">
                     {{ request.user }}
                     <i class="material-icons right">arrow_drop_down</i>
                 </a>
@@ -51,9 +58,18 @@
             <li><a href="{% url 'home_page' %}" class="blue-text">Home</a></li>
             <li><a href="{% url 'developer_list' %}" class="blue-text">Developers</a></li>
             <li><a href="{% url 'skills_list' %}" class="blue-text">Skills</a></li>
+            <li>
+                <a href="{% url 'skills_list' %}" class="blue-text">Extra Credit
+{#                {% if extracredit_tokens and is_developer %}#}
+{#                    <span class="badge orange white-text">{{ extracredit_tokens }}</span>#}
+{#                {% endif %}#}
+                </a>
+            </li>
             <li><a href="{% url 'matrix' %}" class="blue-text">Matrix</a></li>
             <li><a href="{% url "my_developer_details" %}" class="blue-text">My Page</a></li>
-            <li><div class="divider"></div></li>
+            <li>
+                <div class="divider"></div>
+            </li>
             <li><a href="https://crc.nd.edu/" class="orange-text" target="_blank">CRC Website</a></li>
             <li><a href="{% url 'scrum_resources' %}" class="orange-text">Scrum Resources</a></li>
         </ul>
@@ -86,7 +102,8 @@
                         <div class="card small blue">
 
                             <div class="card-content white-text">
-                                <span class="card-title"><i class="material-icons image-margin">people</i>Developers</span>
+                                <span class="card-title"><i
+                                        class="material-icons image-margin">people</i>Developers</span>
                                 <p>All CRC developers have an account on Skills Matrix.</p>
                             </div>
                             <div class="card-action orange">
@@ -99,7 +116,7 @@
 
                             <div class="card-content white-text">
                                 <span class="card-title"><i class="material-icons image-margin">work</i>Skills</span>
-                                    <p>Self report your skills on your developer page.</p>
+                                <p>Self report your skills on your developer page.</p>
                             </div>
                             <div class="card-action orange">
                                 <a class="white-text" href="{% url 'skills_list' %}">View all skills</a>
@@ -112,7 +129,7 @@
                             <div class="card-content white-text">
                                 <span class="card-title"><i
                                         class="material-icons image-margin">assessment</i>Matrix</span>
-                                    <p>See who has experience with a particular skill.</p>
+                                <p>See who has experience with a particular skill.</p>
                             </div>
                             <div class="card-action orange">
                                 <a class="white-text" href="{% url 'matrix' %}">View skills matrix</a>

@@ -2,6 +2,11 @@
 {% load staticfiles %}
 
 {% block extra_js %}
+    <script>
+        $(document).ready(function(){
+            $('ul.tabs').tabs();
+        });
+    </script>
 {% endblock extra_js %}
 
 {% block content %}
@@ -38,27 +43,53 @@
             </div>
         </div>
         <!-- end row -->
-
-        <h4 class="orange-text">Skills</h4>
-        <ul class="collection">
-            {% if isCurrentUser %}
-                <a href="{% url 'bulk_add_skills' %}" class="collection-item blue-text"><strong>Add/Update skills</strong>
-                        <i class="material-icons secondary-content blue-text">add</i></a>
-            {% endif %}
-            {% for skill in skills %}
-                <li class="collection-item blue-text">
-                    <h5>
-                        <a class="orange-text"
-                           href="{% url 'developer_list_by_skill' skill.skill.id %}">{{ skill.skill }}</a>
-                    </h5>
-                    <div class="row">
-                        <div class="col s6">Proficiency: {{ skill.get_proficiency_string }}
-                            <br/>Experience: {{ skill.years_of_experience }} year(s)
-                        </div>
-                        <div class="col s6 right-align"><strong>{{ skill.skill.family }}</strong></div>
-                    </div>
-                </li>
-            {% endfor %}
+        <ul class="tabs tabs-fixed-width">
+            <li class="tab col s3"><a class="orange-text" href="#skills_block">Skills</a></li>
+            <li class="tab col s3"><a class="orange-text" href="#extra_credit_block">Extra Credit</a></li>
+            <div class="indicator orange" style="z-index:1"></div>
         </ul>
+
+        <div id="skills_block">
+            <ul class="collection">
+                {% if isCurrentUser %}
+                    <a href="{% url 'bulk_add_skills' %}" class="collection-item blue-text"><strong>Add/Update skills</strong>
+                            <i class="material-icons secondary-content blue-text">add</i></a>
+                {% endif %}
+                {% for skill in skills %}
+                    <li class="collection-item blue-text">
+                        <h5>
+                            <a class="orange-text"
+                               href="{% url 'developer_list_by_skill' skill.skill.id %}">{{ skill.skill }}</a>
+                        </h5>
+                        <div class="row">
+                            <div class="col s6">Proficiency: {{ skill.get_proficiency_string }}
+                                <br/>Experience: {{ skill.years_of_experience }} year(s)
+                            </div>
+                            <div class="col s6 right-align"><strong>{{ skill.skill.family }}</strong></div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div id="extra_credit_block">
+            <ul class="collection">
+                {% for credit in extracredits %}
+                    <li class="collection-item blue-text">
+                        <h5>
+                            <a class="orange-text">{{ credit.skill.name }}</a>
+                        </h5>
+                        <div class="row">
+                            <div class="col s6">
+                                From: {{ credit.sender.user.first_name }} {{ credit.sender.user.last_name }}<br/>
+                                <blockquote class="blue-text">
+                                    {{ credit.description }}
+                                </blockquote>
+                            </div>
+                            <div class="col s6 right-align">{{ credit.date_credited }}</div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div> <!-- end container -->
 {% endblock content %}

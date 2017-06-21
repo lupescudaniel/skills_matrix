@@ -1,0 +1,1198 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "skillsmatrix",
+      "model": "skill"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "skillsmatrix",
+      "model": "developer"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "skillsmatrix",
+      "model": "developerskill"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "skillsmatrix",
+      "model": "extracredit"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "1cffx4vu8q6xb6mb7z6th1kzjdlytykw",
+    "fields": {
+      "session_data": "ZDNjYTU3MmZhMDFmN2VlMTkyNzcxMTQ3NWE4YjRkYjc3YzdiN2FiMDp7Il9hdXRoX3VzZXJfaGFzaCI6IjUwZTM0ODg5NzJlNDhhYjNhYzQ4ZWJmNjhkZTk0ZDM1MDU0Zjg1ODMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+      "expire_date": "2017-06-29T14:27:15.178Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2rsthfhhu5653w9f1jrebw88futjti8k",
+    "fields": {
+      "session_data": "ZDNjYTU3MmZhMDFmN2VlMTkyNzcxMTQ3NWE4YjRkYjc3YzdiN2FiMDp7Il9hdXRoX3VzZXJfaGFzaCI6IjUwZTM0ODg5NzJlNDhhYjNhYzQ4ZWJmNjhkZTk0ZDM1MDU0Zjg1ODMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+      "expire_date": "2017-07-04T18:54:47.616Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "kuftqn45nviq7e76q0tb3wff5kaxsj58",
+    "fields": {
+      "session_data": "ZjMzYTc4MDgwY2RhMmZmNjVlMjZhYTkxMmIyMWE4M2Y4NzcxMzNhZjp7Il9hdXRoX3VzZXJfaGFzaCI6IjRlNzYyZDFiMTFiNTVkZWY5NGFkNjE4ZDhkYmY0NWM5ODcyZjJmYmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiI4In0=",
+      "expire_date": "2017-07-04T19:54:51.410Z"
+    }
+  },
+  {
+    "model": "skillsmatrix.skill",
+    "pk": 1,
+    "fields": {
+      "name": "Django",
+      "difficulty": null,
+      "family": "Web Framework",
+      "description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It\u2019s free and open source.",
+      "skill_url": "www.djangoproject.com"
+    }
+  },
+  {
+    "model": "skillsmatrix.skill",
+    "pk": 2,
+    "fields": {
+      "name": "Python",
+      "difficulty": null,
+      "family": "Programming Language",
+      "description": "Python is a programming language that lets you work quickly\r\nand integrate systems more effectively",
+      "skill_url": "www.python.org"
+    }
+  },
+  {
+    "model": "skillsmatrix.skill",
+    "pk": 3,
+    "fields": {
+      "name": "Ember.js",
+      "difficulty": null,
+      "family": "Web Framework",
+      "description": "A framework for creating \r\nambitious web applications.",
+      "skill_url": "www.emberjs.com"
+    }
+  },
+  {
+    "model": "skillsmatrix.skill",
+    "pk": 4,
+    "fields": {
+      "name": "PostgreSQL",
+      "difficulty": null,
+      "family": "Database",
+      "description": "PostgreSQL is a powerful, open source object-relational database system. It has more than 15 years of active development and a proven architecture that has earned it a strong reputation for reliability, data integrity, and correctness. It runs on all major operating systems, including Linux, UNIX (AIX, BSD, HP-UX, SGI IRIX, macOS, Solaris, Tru64), and Windows. It is fully ACID compliant, has full support for foreign keys, joins, views, triggers, and stored procedures (in multiple languages). It includes most SQL:2008 data types, including INTEGER, NUMERIC, BOOLEAN, CHAR, VARCHAR, DATE, INTERVAL, and TIMESTAMP. It also supports storage of binary large objects, including pictures, sounds, or video. It has native programming interfaces for C/C++, Java, .Net, Perl, Python, Ruby, Tcl, ODBC, among others, and exceptional documentation.",
+      "skill_url": "www.postgresql.org"
+    }
+  },
+  {
+    "model": "skillsmatrix.skill",
+    "pk": 5,
+    "fields": {
+      "name": "MongoDB",
+      "difficulty": null,
+      "family": "Database",
+      "description": "MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need",
+      "skill_url": "www.mongodb.com"
+    }
+  },
+  {
+    "model": "skillsmatrix.developerskill",
+    "pk": 1,
+    "fields": {
+      "developer": 3,
+      "skill": 1,
+      "proficiency": 3,
+      "years_of_experience": 5,
+      "has_skill": true
+    }
+  },
+  {
+    "model": "skillsmatrix.developerskill",
+    "pk": 2,
+    "fields": {
+      "developer": 4,
+      "skill": 1,
+      "proficiency": 3,
+      "years_of_experience": 2,
+      "has_skill": true
+    }
+  },
+  {
+    "model": "skillsmatrix.developerskill",
+    "pk": 3,
+    "fields": {
+      "developer": 5,
+      "skill": 1,
+      "proficiency": 3,
+      "years_of_experience": 5,
+      "has_skill": true
+    }
+  },
+  {
+    "model": "skillsmatrix.developerskill",
+    "pk": 4,
+    "fields": {
+      "developer": 6,
+      "skill": 1,
+      "proficiency": 2,
+      "years_of_experience": 2,
+      "has_skill": true
+    }
+  },
+  {
+    "model": "skillsmatrix.developerskill",
+    "pk": 5,
+    "fields": {
+      "developer": 7,
+      "skill": 1,
+      "proficiency": 3,
+      "years_of_experience": 3,
+      "has_skill": true
+    }
+  },
+  {
+    "model": "skillsmatrix.developerskill",
+    "pk": 6,
+    "fields": {
+      "developer": 8,
+      "skill": 1,
+      "proficiency": 3,
+      "years_of_experience": 3,
+      "has_skill": true
+    }
+  },
+  {
+    "model": "skillsmatrix.developerskill",
+    "pk": 7,
+    "fields": {
+      "developer": 10,
+      "skill": 1,
+      "proficiency": 3,
+      "years_of_experience": 5,
+      "has_skill": true
+    }
+  },
+  {
+    "model": "skillsmatrix.developerskill",
+    "pk": 8,
+    "fields": {
+      "developer": 2,
+      "skill": 3,
+      "proficiency": 3,
+      "years_of_experience": 2,
+      "has_skill": true
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can add skill",
+      "content_type": 7,
+      "codename": "add_skill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can change skill",
+      "content_type": 7,
+      "codename": "change_skill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can delete skill",
+      "content_type": 7,
+      "codename": "delete_skill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can add developer",
+      "content_type": 8,
+      "codename": "add_developer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can change developer",
+      "content_type": 8,
+      "codename": "change_developer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can delete developer",
+      "content_type": 8,
+      "codename": "delete_developer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add developer skill",
+      "content_type": 9,
+      "codename": "add_developerskill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change developer skill",
+      "content_type": 9,
+      "codename": "change_developerskill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete developer skill",
+      "content_type": 9,
+      "codename": "delete_developerskill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add extra credit",
+      "content_type": 13,
+      "codename": "add_extracredit"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change extra credit",
+      "content_type": 13,
+      "codename": "change_extracredit"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete extra credit",
+      "content_type": 13,
+      "codename": "delete_extracredit"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$rr1EKy4f0MyL$PHHxv4BRiqpYfqRS8TAl3iGAY2XgOrDPbgAblzww6fk=",
+      "last_login": "2017-06-20T18:54:47.597Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "ecaldwe1@nd.edu",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2016-05-24T17:17:51Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$pz6dtMyU2qec$Y01tWA4EiqLpLfsHwgaHRB8UxMoMmYoo99lFit9yT0I=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "dpettifo",
+      "first_name": "David",
+      "last_name": "Pettifor",
+      "email": "dpettifo@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-19T15:42:02Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$xtryOtSln8DV$1AvbO9dpFt3Tk3U/lN+2Qa05jSnKp3ulnvRyXjz3LFo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "bfox6",
+      "first_name": "Brett",
+      "last_name": "Fox",
+      "email": "bfox6@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-19T15:42:59Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$HsVqVsKDIK2l$bis8bhcLMM+OVVS5tUd0wU43CGYK9Z9v1fKOEarFDv8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "snjoroge",
+      "first_name": "Sam",
+      "last_name": "Njoroge",
+      "email": "Samuel.W.Njoroge.5@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-19T15:43:39Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$r6F7RussUxqR$2kYIIRW+ZYi6DWRYELE3fvd6uK8ce04REa0+EaTltfc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "khostetl",
+      "first_name": "Rob",
+      "last_name": "Hostetler",
+      "email": "Keith.R.Hostetler.18@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-22T13:59:20Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$K9f08A3rS7Oj$hbjEP0hGmwnXSMgQ5WXDy6StJk2cJoIfpInib56/6yo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "rwieck",
+      "first_name": "Rob",
+      "last_name": "Wieck",
+      "email": "rwieck@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-22T13:59:53Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$QYto8Gls3nH1$WYMRdfLgafzTRDizfzXmV7ULmfznLuVECWCt6oHQi3g=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "creinkin",
+      "first_name": "Caleb",
+      "last_name": "Reinking",
+      "email": "creinkin@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-22T14:00:21Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$PU2t7gPckQHf$PFjnvfIFGlAK9HtbAkKRjLn9WnbMfHX7DJ8p99kLf38=",
+      "last_login": "2017-06-20T19:54:51.397Z",
+      "is_superuser": false,
+      "username": "ecaldwe1",
+      "first_name": "Beth",
+      "last_name": "Caldwell",
+      "email": "ecaldwe1@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-22T14:01:05Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$0HDA5nIStzyP$EOAMEgpgqGBgqbAnuSwGuSuTlTfSewG1fHa0UJ0yylI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "jolson6",
+      "first_name": "Jared",
+      "last_name": "Olson",
+      "email": "jolson6@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-22T14:01:34Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$sWYLQPUSDx0S$y9eJqR4gzgX0mrbVO+8X3ktkTBoPGa+IwBtAeXUsQH4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sszakony",
+      "first_name": "Scott",
+      "last_name": "Szakonyi",
+      "email": "sszakony@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-22T14:02:32Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$1PyA49zV2eE4$Boe/NgBm35Oyf3N7AeiBsIxuoc3oluiyoDHYyI9yWaE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "aaguilar",
+      "first_name": "Antelmo",
+      "last_name": "Aguilar",
+      "email": "aaguilar@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-22T14:03:07Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$A24GAZcqqxKv$0X8F8fF0ybDhCVKgj2mrorypTOOqGypBMdj0kA6vsZw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "avyushko",
+      "first_name": "Alex",
+      "last_name": "Vyushkov",
+      "email": "avyushko@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2016-05-22T14:06:46Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$24000$DLsIDaLsUsyD$YBFnVcfWTyP/Gg9sv2VWk2eTEQSFTPGTFUefuLUxvLo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "abrinckm",
+      "first_name": "Adam",
+      "last_name": "Brinckman",
+      "email": "abrinckm@nd.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2017-01-19T18:33:07Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 1,
+    "fields": {
+      "user": 11,
+      "manager": "Caleb",
+      "title": "Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 2,
+    "fields": {
+      "user": 13,
+      "manager": "Caleb",
+      "title": "Research Programmer",
+      "phone": "phone",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 3,
+    "fields": {
+      "user": 12,
+      "manager": "Caleb",
+      "title": "Senior Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "manager": "Caleb",
+      "title": "Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "manager": "Caleb",
+      "title": "Senior Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 6,
+    "fields": {
+      "user": 8,
+      "manager": "Caleb",
+      "title": "Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 7,
+    "fields": {
+      "user": 9,
+      "manager": "Caleb",
+      "title": "Associate Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 8,
+    "fields": {
+      "user": 5,
+      "manager": "Caleb",
+      "title": "Associate Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 9,
+    "fields": {
+      "user": 6,
+      "manager": "Caleb",
+      "title": "Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "skillsmatrix.developer",
+    "pk": 10,
+    "fields": {
+      "user": 4,
+      "manager": "Caleb",
+      "title": "Senior Research Programmer",
+      "phone": "",
+      "is_manager": false,
+      "extra_credit_tokens": 5
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2017-06-15T14:27:28.064Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "14",
+      "object_repr": "beth",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2017-06-15T14:30:22.034Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Django",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2017-06-15T14:32:05.275Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Python",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2017-06-15T14:32:49.275Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Ember.js",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2017-06-15T14:33:38.573Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "PostgreSQL",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2017-06-15T14:34:49.202Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "MongoDB",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2017-06-15T14:37:06.992Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Antelmo Aguilar",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2017-06-15T14:37:20.373Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Adam Brinckman",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2017-06-15T14:37:51.947Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Alex Vyushkov",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2017-06-15T14:38:03.118Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Brett Fox",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2017-06-15T14:38:37.282Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "David Pettifor",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2017-06-15T14:38:48.150Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Beth Caldwell",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2017-06-15T14:39:09.117Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Jared Olson",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2017-06-15T14:39:25.881Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Rob Hostetler",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2017-06-15T14:39:42.335Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Rob Wieck",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2017-06-15T14:39:54.213Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Sam Njoroge",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2017-06-15T14:45:11.291Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Alex Vyushkov Django",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2017-06-15T14:45:23.973Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Brett Fox Django",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2017-06-15T14:45:37.906Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "David Pettifor Django",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2017-06-15T14:45:47.359Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Beth Caldwell Django",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2017-06-15T14:45:55.078Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Jared Olson Django",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2017-06-15T14:46:06.650Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "6",
+      "object_repr": "Rob Hostetler Django",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2017-06-15T14:46:20.592Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "7",
+      "object_repr": "Sam Njoroge Django",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2017-06-15T14:46:33.172Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "8",
+      "object_repr": "Adam Brinckman Ember.js",
+      "action_flag": 1,
+      "change_message": "Added."
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2017-06-20T19:54:26.991Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "8",
+      "object_repr": "ecaldwe1",
+      "action_flag": 2,
+      "change_message": "Changed password."
+    }
+  }
+]

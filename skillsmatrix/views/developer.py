@@ -1,8 +1,12 @@
 # View file for developer pages
+import datetime
+from django import forms
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.core.exceptions import PermissionDenied
+from django.db.models import F
+from django.http.response import HttpResponseRedirect
 from django.views.generic import *
-from skillsmatrix.models import Developer, DeveloperSkill, Skill
+from skillsmatrix.models import Developer, DeveloperSkill, Skill, ExtraCredit
 from django.core.urlresolvers import reverse
 
 
@@ -32,6 +36,8 @@ class DeveloperDetail(DetailView):
     def get_context_data(self, **kwargs):
         context = super(DeveloperDetail, self).get_context_data(**kwargs)
         devskill_list = DeveloperSkill.objects.filter(developer=self.object, has_skill=True).order_by('-years_of_experience')
+        extracredit_list = ExtraCredit.objects.filter(recipient=self.object).order_by('date_credited')
+        context['extracredits'] = extracredit_list
         context['skills'] = devskill_list
         context['isCurrentUser'] = False
         return context
@@ -86,4 +92,55 @@ class DeveloperListBySkill(ListView):
         skill_obj = Skill.objects.get(id=skill_id)
         context['skill_name'] = skill_obj.name
         context['skill_object'] = skill_obj
+        return context
+
+
+class CreateExtraCredit(CreateView):
+    model = ExtraCredit
+    template_name = "materialize/extracredit_create_materialize.html"
+    success_url = '/extracredit_sent'
+    fields = '__all__'
+
+    def get_form(self, form_class=None):
+        form = super(CreateExtraCredit, self).get_form()
+        form.fields['recipient'].queryset = Developer.objects.exclude(user=self.request.user)
+        form.fields['sender'].widget = forms.HiddenInput()
+        return form
+
+    def get_initial(self):
+        initial = super(CreateExtraCredit, self).get_initial()
+        initial['sender'] = Developer.objects.get(user=self.request.user)
+
+        return initial
+
+    def get_context_data(self, **kwargs):
+        context = super(CreateExtraCredit, self).get_context_data()
+        developers = Developer.objects.all().exclude(user=self.request.user)
+        me = Developer.objects.get(user=self.request.user)
+        skills = Skill.objects.all()
+        context['developers'] = developers
+        context['skills'] = skills
+        context['my_tokens'] = me.extra_credit_tokens
+        return context
+
+    def form_valid(self, form):
+        """
+        If the form is valid, save the associated model.
+        """
+        self.object = form.save()
+        # decrement the sender's tokens
+        me = Developer.objects.get(user=self.request.user)
+        me.extra_credit_tokens -= 1
+        me.save()
+        # if object successfully saved
+        return HttpResponseRedirect(self.get_success_url())
+
+
+class ExtraCreditSent(TemplateView):
+    template_name = "materialize/extracredit_sent.html"
+
+    def get_context_data(self, **kwargs):
+        context = super(ExtraCreditSent, self).get_context_data()
+        me = Developer.objects.get(user=self.request.user)
+        context['my_tokens'] = me.extra_credit_tokens
         return context
