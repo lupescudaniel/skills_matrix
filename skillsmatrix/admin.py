@@ -1,6 +1,5 @@
 from django.contrib import admin
-from skillsmatrix.models import Skill, Developer, DeveloperSkill, Project, ProjectDeveloper, ProjectSkill
-
+from skillsmatrix.models import Skill, Developer, DeveloperSkill,ExtraCredit
 
 # Skill admin configuration
 class SkillAdmin(admin.ModelAdmin):
@@ -26,27 +25,4 @@ class DeveloperSkillAdmin(admin.ModelAdmin):
 
 admin.site.register(DeveloperSkill, DeveloperSkillAdmin)
 
-# Project admin configuration
-admin.site.register(Project)
-
-
-# ProjectSkills admin configuration
-class ProjectSkillAdmin(admin.ModelAdmin):
-    list_display = ('project', 'skill')
-    list_filter = ('skill', 'project')
-
-admin.site.register(ProjectSkill, ProjectSkillAdmin)
-
-
-# ProjectDeveloper admin configuration
-class ProjectDeveloperAdmin(admin.ModelAdmin):
-    list_display = ('get_project_developer_username', 'project')
-    list_filter = ('developer', 'project')
-
-    def get_project_developer_username(self, obj):
-        return obj.developer.user.username
-
-    get_project_developer_username.short_description = 'Project Developer Username'
-
-admin.site.register(ProjectDeveloper, ProjectDeveloperAdmin)
-
+admin.site.register(ExtraCredit)

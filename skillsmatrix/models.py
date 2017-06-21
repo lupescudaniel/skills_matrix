@@ -31,8 +31,9 @@ class Developer(models.Model):
     user = models.OneToOneField(User)
     manager = models.CharField(max_length=512)
     title = models.CharField(max_length=512)
-    phone = models.CharField(max_length=512, default="phone", blank=True, null=True)
+    phone = models.CharField(max_length=512, default="(###) ###-####", blank=True, null=True)
     is_manager = models.BooleanField(default=False)
+    extra_credit_tokens = models.IntegerField(default=0)
 
     def __str__(self):
         return '%s %s' % (self.user.first_name, self.user.last_name)
@@ -73,31 +74,15 @@ class DeveloperSkill(models.Model):
     #     super(DeveloperSkill, self).save(*args, **kwargs)
 
 
-# Project model
-class Project(models.Model):
-    name = models.CharField(max_length=512)
-    project_lead = models.ForeignKey('Developer', on_delete=models.CASCADE)
-    pi = models.CharField(max_length=512)
+# ExtraCredit model
+class ExtraCredit(models.Model):
+    recipient = models.ForeignKey(Developer, related_name='extracredit_recipient')
+    sender = models.ForeignKey(Developer, related_name='extracredit_sender')
+    skill = models.ForeignKey(Skill, related_name='extracredit_skill')
+    description = models.TextField(blank=True, null=True)
+    date_credited = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return '%s' % self.name
-
-
-# ProjectSkill model
-class ProjectSkill(models.Model):
-    project = models.ForeignKey('Project', on_delete=models.CASCADE)
-    skill = models.ForeignKey('Skill', on_delete=models.CASCADE)
-
-    def __str__(self):
-        return '%s' % self.skill.name
-
-
-# ProjectDeveloper model
-class ProjectDeveloper(models.Model):
-    project = models.ForeignKey('Project', on_delete=models.CASCADE)
-    developer = models.ForeignKey('Developer', on_delete=models.CASCADE)
-
-    def __str__(self):
-        return '%s %s' % self.developer.user.first_name
+        return '%s %s -> %s %s - %s' % (self.sender.user.first_name, self.sender.user.last_name, self.recipient.user.first_name, self.recipient.user.last_name, self.skill.name)
 
 
