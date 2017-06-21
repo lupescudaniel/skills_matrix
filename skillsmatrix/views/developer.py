@@ -1,13 +1,12 @@
 # View file for developer pages
-import datetime
 from django import forms
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.core.exceptions import PermissionDenied
-from django.db.models import F
+from django.core.urlresolvers import reverse
 from django.http.response import HttpResponseRedirect
 from django.views.generic import *
+
 from skillsmatrix.models import Developer, DeveloperSkill, Skill, ExtraCredit
-from django.core.urlresolvers import reverse
 
 
 # ListView that lists all of the developers by using the developer_list.html template
@@ -114,12 +113,8 @@ class CreateExtraCredit(CreateView):
         return initial
 
     def get_context_data(self, **kwargs):
-        context = super(CreateExtraCredit, self).get_context_data()
-        developers = Developer.objects.all().exclude(user=self.request.user)
+        context = super(CreateExtraCredit, self).get_context_data(**kwargs)
         me = Developer.objects.get(user=self.request.user)
-        skills = Skill.objects.all()
-        context['developers'] = developers
-        context['skills'] = skills
         context['my_tokens'] = me.extra_credit_tokens
         return context
 
@@ -127,8 +122,16 @@ class CreateExtraCredit(CreateView):
         """
         If the form is valid, save the associated model.
         """
+        # Check that the user has tokens available to send extra credit
+        me = Developer.objects.get(user=self.request.user)
+        if me.extra_credit_tokens <= 0:
+            form.add_error(None, "You do not have any extra credit tokens!")
+            return self.form_invalid(form=form)
+
+        # Save the form
         self.object = form.save()
-        # decrement the sender's tokens
+
+        # Decrement the sender's tokens
         me = Developer.objects.get(user=self.request.user)
         me.extra_credit_tokens -= 1
         me.save()
