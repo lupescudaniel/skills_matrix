@@ -18,11 +18,11 @@
 
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
-    <li><a class="blue-text" href="{% url "my_developer_details" %}">My Page</a></li>
+    <li><a class="grey-text text-darken-3" href="{% url "my_developer_details" %}">My Page</a></li>
 </ul>
 
 <!-- Nav Bar -->
-<nav class="blue lighten-1" role="navigation">
+<nav class="grey darken-2" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="{% url 'home_page' %}" class="brand-logo">Skills
         Matrix</a>
         <ul class="right hide-on-med-and-down">
@@ -55,23 +55,23 @@
         </ul>
         <!-- Mobile Nav Bar -->
         <ul id="nav-mobile" class="side-nav">
-            <li><a href="{% url 'home_page' %}" class="blue-text">Home</a></li>
-            <li><a href="{% url 'developer_list' %}" class="blue-text">Developers</a></li>
-            <li><a href="{% url 'skills_list' %}" class="blue-text">Skills</a></li>
+            <li><a href="{% url 'home_page' %}" class="grey-text text-darken-3">Home</a></li>
+            <li><a href="{% url 'developer_list' %}" class="grey-text text-darken-3">Developers</a></li>
+            <li><a href="{% url 'skills_list' %}" class="grey-text text-darken-3">Skills</a></li>
             <li>
-                <a href="{% url 'skills_list' %}" class="blue-text">Extra Credit
+                <a href="{% url 'skills_list' %}" class="grey-text text-darken-3">Extra Credit
 {#                {% if extracredit_tokens and is_developer %}#}
 {#                    <span class="badge orange white-text">{{ extracredit_tokens }}</span>#}
 {#                {% endif %}#}
                 </a>
             </li>
-            <li><a href="{% url 'matrix' %}" class="blue-text">Matrix</a></li>
-            <li><a href="{% url "my_developer_details" %}" class="blue-text">My Page</a></li>
+            <li><a href="{% url 'matrix' %}" class="grey-text text-darken-3">Matrix</a></li>
+            <li><a href="{% url "my_developer_details" %}" class="grey-text text-darken-3">My Page</a></li>
             <li>
                 <div class="divider"></div>
             </li>
-            <li><a href="https://crc.nd.edu/" class="orange-text" target="_blank">CRC Website</a></li>
-            <li><a href="{% url 'scrum_resources' %}" class="orange-text">Scrum Resources</a></li>
+            <li><a href="https://crc.nd.edu/" class="cyan-text" target="_blank">CRC Website</a></li>
+            <li><a href="{% url 'scrum_resources' %}" class="cyan-text">Scrum Resources</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -84,10 +84,10 @@
             <div class="container">
                 <br><br>
 
-                <h1 class="header center orange-text">Employee Skills Matrix</h1>
+                <h1 class="header center cyan-text text-darken-1">Employee Skills Matrix</h1>
 
                 <div class="row center">
-                    <h5 class="header col s12 light">Keep track of skills to better utilize talent and place employees
+                    <h5 class="header col s12 light grey-text text-darken-2">Keep track of skills to better utilize talent and place employees
                         on teams and projects that will interest and challenge them.</h5>
                 </div>
                 <br/>
@@ -99,39 +99,39 @@
             <div class="section">
                 <div class="row center-cols center-align">
                     <div class="col m3">
-                        <div class="card small blue">
+                        <div class="card small cyan darken-1">
 
                             <div class="card-content white-text">
                                 <span class="card-title"><i
                                         class="material-icons image-margin">people</i>Developers</span>
                                 <p>All CRC developers have an account on Skills Matrix.</p>
                             </div>
-                            <div class="card-action orange">
+                            <div class="card-action light-green">
                                 <a class="white-text" href="{% url 'developer_list' %}">View developers</a>
                             </div>
                         </div>
                     </div>
                     <div class="col m3">
-                        <div class="card small blue">
+                        <div class="card small cyan darken-1">
 
                             <div class="card-content white-text">
                                 <span class="card-title"><i class="material-icons image-margin">work</i>Skills</span>
                                 <p>Self report your skills on your developer page.</p>
                             </div>
-                            <div class="card-action orange">
+                            <div class="card-action light-green">
                                 <a class="white-text" href="{% url 'skills_list' %}">View all skills</a>
                             </div>
                         </div>
                     </div>
                     <div class="col m3">
-                        <div class="card small blue">
+                        <div class="card small cyan darken-1">
 
                             <div class="card-content white-text">
                                 <span class="card-title"><i
                                         class="material-icons image-margin">assessment</i>Matrix</span>
                                 <p>See who has experience with a particular skill.</p>
                             </div>
-                            <div class="card-action orange">
+                            <div class="card-action light-green">
                                 <a class="white-text" href="{% url 'matrix' %}">View skills matrix</a>
                             </div>
                         </div>
@@ -143,10 +143,10 @@
             <div class="section">
                 <div class="container">
                     <div class="row center">
-                        <i class="material-icons large blue-text">sentiment_very_satisfied</i>
-                        <h5 class="header col s12 light"><a
+                        <i class="material-icons large cyan-text text-darken-1">sentiment_very_satisfied</i>
+                        <h5 class="header col s12 light grey-text text-darken-2"><a class="cyan-text text-darken-1"
                                 href="http://www.gallup.com/businessjournal/167462/employees-strengths-company-stronger.aspx"
-                                target="_blank"> Research</a> suggests that employees who use their strengths every day
+                                target="_blank"><strong>Research</strong></a> suggests that employees who use their strengths every day
                             are six times more likely to be engaged on the job.<br><br>
                             Engagement has been shown to increase when managers focus on employees' strengths.<br><br>
                             Furthermore, focusing on employees' strengths directly relates to improved well-being. </h5>
@@ -160,7 +160,7 @@
 </main>
 
 <!-- FOOTER -->
-<footer class="page-footer orange">
+<footer class="page-footer cyan darken-1">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
@@ -175,9 +175,7 @@
 
             </div>
             <div class="col l3 s12 ">
-                {#                <h5 class="white-text right right-align">Links</h5>#}
                 <ul class="right right-align">
-                    <li><a class="white-text" href="#!">About</a></li>
                     <li><a class="white-text" href="https://crc.nd.edu/" target="_blank">CRC</a></li>
                     <li><a class="white-text" href="{% url 'scrum_resources' %}">Scrum</a></li>
                 </ul>
@@ -187,10 +185,7 @@
     <div class="footer-copyright">
         <div class="container valign-wrapper">
             <i class="material-icons" style="margin: 10px;">copyright</i>
-            2017 ND CRC -
-            <div class="right"> - Site designed using <a class="white-text"
-                                                         href="http://materializecss.com">Materialize</a>
-            </div>
+            2017 Center for Research Computing - University of Notre Dame
         </div>
     </div>
 </footer>
